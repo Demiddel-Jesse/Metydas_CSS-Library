@@ -1,0 +1,24 @@
+{
+  "name": "metydas_css-library",
+  "version": "1.0.0",
+  "description": "A CSS Library made to work together with my personal design system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demiddel-Jesse/Metydas_CSS-Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demiddel-Jesse/Metydas_CSS-Library/issues"
+  },
+  "homepage": "https://github.com/Demiddel-Jesse/Metydas_CSS-Library#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.9"
+  }
+}
