@@ -191,23 +191,23 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     flex-shrink
     flex-wrap
     float
-    font
-    font-family
-    font-feature-settings
-    font-kerning
-    font-language-override
-    font-size
-    font-size-adjust
-    font-stretch
-    font-style
-    font-synthesis
-    font-variant
-    font-variant-alternates
-    font-variant-caps
-    font-variant-east-asian
-    font-variant-numeric
-    font-variant-position
-    font-weigth
+    ??font
+    ??font-family
+    ??font-feature-settings
+    //font-kerning
+    ??font-language-override
+    //font-size
+    ??font-size-adjust
+    //font-stretch
+    //font-style
+    //font-synthesis
+    //font-variant
+    ??font-variant-alternates
+    //font-variant-caps
+    //font-variant-east-asian
+    //font-variant-numeric
+    //font-variant-position
+    //font-weigth
 
     gap
     grid
@@ -229,9 +229,9 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     grid-template-columns
     grid-template-rows
 
-    hanging-punctuation
+    //hanging-punctuation
     height
-    hyphens
+    //hyphens
 
     image-rendering
     isolation
@@ -239,9 +239,9 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     justify-content
 
     left
-    letter-spacing
-    line-break
-    line-height
+    //letter-spacing
+    //line-break
+    //line-height
     list-style
     list-style-image
     list-style-position
@@ -295,7 +295,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     pointer-events
     position
 
-    quotes
+    ??quotes
 
     resize
     right
@@ -305,22 +305,22 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
 
     tab-size
     table-layout
-    text-align
-    text-align-last
-    text-combine-upright
-    text-decoration
+    //text-align
+    //text-align-last
+    ??text-combine-upright
+    ??text-decoration
     text-decoration-color
-    text-decoration-line
-    text-decoration-style
-    text-decoration-thickness
-    text-emphasis
-    text-indent
-    text-justify
-    text-orientation
-    text-overflow
+    //text-decoration-line
+    //text-decoration-style
+    //text-decoration-thickness
+    //text-emphasis
+    !!text-indent
+    //text-justify
+    //text-orientation
+    //text-overflow
     text-shadow
-    text-transform
-    text-underline-position
+    //text-transform
+    //text-underline-position
     top
     transform
     transform-origin
@@ -337,12 +337,12 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     vertical-align
     visibility
 
-    white-space
+    //white-space
     widows
     width
-    word-break
-    word-spacing
-    word-wrap
+    //word-break
+    !!word-spacing
+    //word-wrap
     writing-mode
 
     z-index
