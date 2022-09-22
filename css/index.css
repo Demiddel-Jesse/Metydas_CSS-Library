@@ -1,79 +1,21 @@
-/* TYPOGRAPHY */
-/* importing the font(s) */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/* HEADINGS */
-/* Display */
-.f-display, .f-display-small, .f-display-extrabold-small, .f-display-bold-small, .f-display-semibold-small, .f-display-medium-small, .f-display-large, .f-display-extrabold-large, .f-display-bold-large, .f-display-semibold-large, .f-display-medium-large {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-}
-
-.f-display-large, .f-display-extrabold-large, .f-display-bold-large, .f-display-semibold-large, .f-display-medium-large {
-  font-size: 3.25rem;
-  line-height: 108%;
-}
-
-.f-display-small, .f-display-extrabold-small, .f-display-bold-small, .f-display-semibold-small, .f-display-medium-small {
-  font-size: 2.75rem;
-  line-height: 109%;
-}
-
-.f-display-medium-large {
-  font-weight: 500;
-}
-
-.f-display-medium-small {
-  font-weight: 500;
-}
-
-.f-display-semibold-large {
-  font-weight: 600;
-}
-
-.f-display-semibold-small {
-  font-weight: 600;
-}
-
-.f-display-bold-large {
-  font-weight: 700;
-}
-
-.f-display-bold-small {
-  font-weight: 700;
-}
-
-.f-display-extrabold-large {
-  font-weight: 800;
-}
-
-.f-display-extrabold-small {
-  font-weight: 800;
-}
-
-/* reset styles */
-* {
-  color: inherit;
-  margin: 0;
-}
-
-body {
-  font-family: Poppins;
-}
-
-ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
-}
-
-img {
-  max-width: 100%;
-}
+/*------------------------------------*\
+	#SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+	#TOOLS
+\*------------------------------------*/
+/*------------------------------------*\
+	#GENERIC
+\*------------------------------------*/
+/*------------------------------------*\
+	#ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+	#OBJECTS
+\*------------------------------------*/
+/*------------------------------------*\
+	#COMPONENTS
+\*------------------------------------*/
+/*------------------------------------*\
+	#UTILITIES
+\*------------------------------------*/
