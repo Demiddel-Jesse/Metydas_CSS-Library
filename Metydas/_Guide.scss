@@ -134,22 +134,28 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     background-position
     background-repeat
     background-size
+
     // all of these border properties also have a top, left, bottom, right selector
-    border-width
-    border-style
+
+    ??border
+    //border-width
+    //border-style
     border-color
+
     // all of these border properties do not have a top, left, bottom, right selector unless otherwise specified
-    border-radius
-    border-bottom-left-radius
-    border-bottom-right-radius
-    border-top-left-radius
-    border-top-right-radius
-    border-image-outset
-    border-image-repeat
-    border-image-slice
-    border-image-source
-    border-image-width
-    border-spacing
+
+    //border-radius
+    //border-bottom-left-radius
+    //border-bottom-right-radius
+    //border-top-left-radius
+    //border-top-right-radius
+    ??border-image
+    //border-image-outset
+    //border-image-repeat
+    //border-image-slice
+    //border-image-source
+    //border-image-width
+    //border-spacing
     bottom
     box-decoration-break
     box-shadow
@@ -354,4 +360,15 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
 content (have the ability to insert text content before or after the element
 )
 */
+
 //#endregion UTILITIES
+
+/* default value to put in map
+	'': (
+		'prefix': '',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+*/
