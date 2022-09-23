@@ -124,8 +124,8 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     ??animation-play-stat
     ??animation-timing-function
 
-    backdrop-filter
-    backface-visibility
+    ??backdrop-filter
+    ??backface-visibility
     ??background
     //background-attachment
     //background-blend-mode
@@ -158,18 +158,18 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //border-image-source
     //border-image-width
     //border-spacing
-    bottom
-    box-decoration-break
-    box-shadow
-    box-sizing
-    break-after
-    break-before
-    break-insisde
+    !!bottom
+    //box-decoration-break
+    !!box-shadow
+    //box-sizing
+    //break-after
+    //break-before
+    //break-insisde
 
-    caption-side
+    //caption-side
     caret-color
-    clear
-    clip
+    //clear
+    //clip
     color
     //column-count
     //column-fill
@@ -181,15 +181,15 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //column-span
     //column-width
     //columns
-    content
-    counter-increment
-    counter-reset
-    cursor
+    !!content
+    !!counter-increment
+    !!counter-reset
+    !!cursor (URL)
 
     //direction
-    display
+    //display
 
-    empty-cells
+    //empty-cells
     
     filter
     ??flex
@@ -218,25 +218,25 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //font-variant-position
     //font-weigth
 
-    gap
-    grid
-    grid-area
-    grid-auto-columns
+    ??gap
+    ??grid
+    ??grid-area
+    //grid-auto-columns
     grid-auto-flow
-    grid-auto-rows
-    grid-column
-    grid-column-start
-    grid-column-gap
-    grid-column-end
-    grid-gap
-    grid-row
-    grid-row-start
-    grid-row-gap
-    grid-row-end
-    grid-template
-    grid-template-areas
-    grid-template-columns
-    grid-template-rows
+    //grid-auto-rows
+    ??grid-column
+    //grid-column-start
+    //grid-column-gap
+    //grid-column-end
+    ??grid-gap
+    ??grid-row
+    //grid-row-start
+    //grid-row-gap
+    //grid-row-end
+    ??grid-template
+    ??grid-template-areas
+    ??grid-template-columns
+    ??grid-template-rows
 
     //hanging-punctuation
     height

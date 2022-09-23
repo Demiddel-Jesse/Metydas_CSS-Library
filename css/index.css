@@ -2,14 +2,13 @@
 	#SETTINGS
 \*------------------------------------*/
 /* default value to put in map
-'column-': (
-    'prefix': 'column-',
-    'values': (
-        'initial': initial,
-        'inherit': inherit,
-        'auto': auto,
-    ),
-),
+	'': (
+		'prefix': '',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
 */
 /*------------------------------------*\
 	#TOOLS
