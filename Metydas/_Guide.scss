@@ -107,12 +107,13 @@ _Components.scss
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
-
+// make utilities with multiple variables neede a long string
 /*
 _Utilities.scss (this list is the order they will show up in the utilities section and map)(sorted alphabetically (some will be grouped or in case for anything dealing with non-decoration functions will be moved to the objects region))
     accent-color
-    align-content
-    align-items
+    //align-content
+    //align-items
+    //align-self
     animation-delay
     animation-direction
     animation-duration
@@ -236,7 +237,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     image-rendering
     isolation
 
-    justify-content
+    //justify-content
 
     left
     //letter-spacing
@@ -270,7 +271,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     object-fit
     object-position
     opacity
-    order
+    //order
     orphans
     outline
     outline-color
@@ -348,4 +349,9 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     z-index
 */
 
+/*
+// extra things
+content (have the ability to insert text content before or after the element
+)
+*/
 //#endregion UTILITIES
