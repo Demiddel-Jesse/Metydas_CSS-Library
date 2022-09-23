@@ -1,0 +1,72 @@
+$MapBackground: (
+	'background-attachment': (
+		'prefix': 'background-attachment',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'scroll': scroll,
+			'fixed': fixed,
+			'local': local,
+		),
+	),
+	'background-blend-mode': (
+		'prefix': 'background-blend-mode',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'normal': normal,
+			'multiply': multiply,
+			'screen': screen,
+			'overlay': overlay,
+			'darken': darken,
+			'lighten': lighten,
+			'color-dodge': color-dodge,
+			'saturation': saturation,
+			'color': color,
+			'luminosity': luminosity,
+		),
+	),
+	'background-clip': (
+		'prefix': 'background-clip',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'border-box': border-box,
+			'pading-box': pading-box,
+			'content-box': content-box,
+		),
+	),
+	'background-origin': (
+		'prefix': 'background-origin',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'border-box': border-box,
+			'pading-box': pading-box,
+			'content-box': content-box,
+		),
+	),
+	'background-repeat': (
+		'prefix': 'background-repeat',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'repeat': repeat,
+			'repeat-x': repeat-x,
+			'repeat-y': repeat-y,
+			'no-repeat': no-repeat,
+			'space': space,
+			'round': round,
+		),
+	),
+	'background-size': (
+		'prefix': 'background-size',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'cover': cover,
+			'contain': contain,
+		),
+	),
+);
