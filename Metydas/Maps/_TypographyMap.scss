@@ -440,4 +440,13 @@ $MapTypography: (
 			'sideways-lr': sideways-lr,
 		),
 	),
+	'direction': (
+		'prefix': 'f-direction',
+		'values': (
+			'right-left': rtl,
+			'left-right': ltr,
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
 );
