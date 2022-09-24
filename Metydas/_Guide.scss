@@ -199,7 +199,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     ??flex-grow
     ??flex-shrink
     //flex-wrap
-    float
+    //float
     ??font
     ??font-family
     ??font-feature-settings
@@ -222,7 +222,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     ??grid
     ??grid-area
     //grid-auto-columns
-    grid-auto-flow
+    //grid-auto-flow
     //grid-auto-rows
     ??grid-column
     //grid-column-start
@@ -239,81 +239,81 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     ??grid-template-rows
 
     //hanging-punctuation
-    height
+    ??height
     //hyphens
 
-    image-rendering
-    isolation
+    //image-rendering
+    //isolation
 
     //justify-content
 
-    left
+    ??left
     //letter-spacing
     //line-break
     //line-height
-    list-style
-    list-style-image
-    list-style-position
-    list-style-type
+    ??list-style
+    ??list-style-image
+    //list-style-position
+    //list-style-type
 
-    margin
-    margin-bottom
-    margin-left
-    margin-right
-    margin-top
-    mask
-    mask-clip
-    mask-composite
-    mask-image
-    mask-mode
-    mask-origin
-    mask-repeat
-    mask-size
-    mask-type
-    max-height
-    max-width
-    min-height
-    min-width
-    mix-blend-mode
+    ??margin
+    ??margin-bottom
+    ??margin-left
+    ??margin-right
+    ??margin-top
+    //mask
+    //mask-clip
+    ??mask-composite
+    ??mask-image
+    //mask-mode
+    //mask-origin
+    //mask-repeat
+    !!mask-size
+    ??mask-type (also color)
+    ??max-height
+    ??max-width
+    ??min-height
+    ??min-width
+    //mix-blend-mode
 
-    object-fit
-    object-position
-    opacity
+    //object-fit
+    !!object-position
+    !!opacity
     //order
-    orphans
-    outline
+    !!orphans
+    ??outline
     outline-color
-    outline-offset
-    outline-style
-    outline-width
-    overflow
-    overflow-wrap
-    overflow-x
-    overflow-y
+    !!outline-offset
+    //outline-style
+    !!outline-width
+    //overflow
+    //overflow-wrap
+    //overflow-x
+    //overflow-y
 
-    padding
-    padding-bottom
-    padding-left
-    padding-top
-    padding-right
-    page-break-after
-    page-break-inside
-    page-break-before
-    perspective
-    perspective-origin
-    pointer-events
-    position
+    ??padding
+    ??padding-bottom
+    ??padding-left
+    ??padding-top
+    ??padding-right
+    //page-break-after
+    //page-break-inside
+    //page-break-before
+    !!perspective
+    !!perspective-origin
+    //pointer-events
+    //position
 
-    ??quotes
+    !!quotes
 
-    resize
-    right
-    row-gap
+    //resize
+    !!right
+    !!row-gap
 
-    scroll-behavion
+    //scroll-behavion
 
-    tab-size
-    table-layout
+    !!tab-size
+    //table-layout
     //text-align
     //text-align-last
     ??text-combine-upright
@@ -327,34 +327,34 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //text-justify
     //text-orientation
     //text-overflow
-    text-shadow
+    !!text-shadow
     //text-transform
     //text-underline-position
-    top
-    transform
-    transform-origin
-    transform-style
-    transition
-    transition-delay
-    transition-duration
-    transition-property
-    transition-timing-function
+    !!top
+    !!transform
+    !!transform-origin
+    //transform-style
+    !!transition
+    !!transition-delay
+    !!transition-duration
+    !!transition-property
+    !!transition-timing-function
 
-    unicode-bidi
-    user-select
+    //unicode-bidi
+    //user-select
 
-    vertical-align
-    visibility
+    !!vertical-align
+    //visibility
 
     //white-space
-    widows
-    width
+    !!widows
+    !!width
     //word-break
     !!word-spacing
     //word-wrap
-    writing-mode
+    //writing-mode
 
-    z-index
+    !!z-index
 */
 
 /*

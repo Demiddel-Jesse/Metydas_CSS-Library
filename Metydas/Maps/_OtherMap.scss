@@ -240,6 +240,555 @@ $MapOther: (
 			'hide': hide,
 		),
 	),
+	'float': (
+		'prefix': 'float',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+			'left': left,
+			'right': right,
+		),
+	),
+	'image-rendering': (
+		'prefix': 'image-rendering',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'smooth': smooth,
+			'high-quality': high-quality,
+			'crisp-edges': crisp-edges,
+			'pixelated': pixelated,
+		),
+	),
+	'isolation': (
+		'prefix': 'isolation',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'isolate': isolate,
+		),
+	),
+	'list-style-position': (
+		'prefix': 'list-style-position',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'inside': inside,
+			'outside': outside,
+		),
+	),
+	'list-style-type': (
+		'prefix': 'list-style-type',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'default': disc,
+			'armenian': armenian,
+			'circle': circle,
+			'cjk-ideographic': cjk-ideographic,
+			'deciamal': deciamal,
+			'deciamal-leading-zero': deciamal-leading-zero,
+			'georgian': georgian,
+			'hebrew': hebrew,
+			'hirigana': hirigana,
+			'hirigana-iroha': hirigana-iroha,
+			'katakana': katakana,
+			'katakana-iroha': katakana-iroha,
+			'lower-alpha': lower-alpha,
+			'lower-greek': lower-greek,
+			'lower-latin': lower-latin,
+			'lower-roman': lower-roman,
+			'upper-alpha': upper-alpha,
+			'upper-greek': upper-greek,
+			'upper-latin': upper-latin,
+			'upper-roman': upper-roman,
+			'none': none,
+			'square': square,
+		),
+	),
+	'mask': (
+		'prefix': 'mask',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'mask-clip': (
+		'prefix': 'mask-clip',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'mask-mode': (
+		'prefix': 'mask-mode',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'match-source': match-source,
+			'luminance': luminance,
+			'alpha': alpha,
+		),
+	),
+	'mask-origin': (
+		'prefix': 'mask-origin',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'border-box': border-box,
+			'content-box': content-box,
+			'padding-box': padding-box,
+			'margin-box': margin-box,
+			'fill-box': fill-box,
+			'stroke-box': stroke-box,
+			'view-box': view-box,
+		),
+	),
+	'mask-repeat': (
+		'prefix': 'mask-repeat',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'repeat': repeat,
+			'repeat-x': repeat-x,
+			'repeat-y': repeat-y,
+			'space': space,
+			'round': round,
+			'no-repeat': no-repeat,
+		),
+	),
+	'mask-size': (
+		'prefix': 'mask-size',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'contain': contain,
+			'cover': cover,
+		),
+	),
+	'mask-type': (
+		'prefix': 'mask-type',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'alpha': alpha,
+			'luminance': luminance,
+		),
+	),
+	'mix-blend-mode': (
+		'prefix': 'mix-blend-mode',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'normal': normal,
+			'multiply': multiply,
+			'screen': screen,
+			'overlay': overlay,
+			'darken': darken,
+			'lighten': lighten,
+			'color-dodge': color-dodge,
+			'color-burn': color-burn,
+			'difference': difference,
+			'exclusion': exclusion,
+			'hue': hue,
+			'saturation': saturation,
+			'color': color,
+			'luminosity': luminosity,
+		),
+	),
+	'object-fit': (
+		'prefix': 'object-fit',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'fill': fill,
+			'contain': contain,
+			'cover': cover,
+			'none': none,
+			'scale-down': scale-down,
+		),
+	),
+	'object-position': (
+		'prefix': 'object-position',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'opacity': (
+		'prefix': 'opacity',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'orphans': (
+		'prefix': 'orphans',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'outline-offset': (
+		'prefix': 'outline-offset',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'outline-style': (
+		'prefix': 'outline-style',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+			'hidden': hidden,
+			'dotted': dotted,
+			'dashed': dashed,
+			'solid': solid,
+			'double': double,
+			'groove': groove,
+			'ridge': ridge,
+			'inset': inset,
+			'outset': outset,
+		),
+	),
+	'outline-width': (
+		'prefix': 'outline-width',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'thin': thin,
+			'medium': medium,
+			'thick': thick,
+		),
+	),
+	'overflow': (
+		'prefix': 'overflow',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'visible': visible,
+			'hidden': hidden,
+			'clip': clip,
+			'scroll': scroll,
+			'auto': auto,
+		),
+	),
+	'overflow-wrap': (
+		'prefix': 'overflow-wrap',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'normal': normal,
+			'anywhere': anywhere,
+			'break-word': break-word,
+		),
+	),
+	'overflow-x': (
+		'prefix': 'overflow-x',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'visible': visible,
+			'hidden': hidden,
+			'scroll': scroll,
+			'auto': auto,
+		),
+	),
+	'overflow-y': (
+		'prefix': 'overflow-y',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'visible': visible,
+			'hidden': hidden,
+			'scroll': scroll,
+			'auto': auto,
+		),
+	),
+	'page-break-before': (
+		'prefix': 'page-break-before',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'always': always,
+			'avoid': avoid,
+			'left': left,
+			'right': right,
+		),
+	),
+	'page-break-inside': (
+		'prefix': 'page-break-inside',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'avoid': avoid,
+		),
+	),
+	'page-break-after': (
+		'prefix': 'page-break-after',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'always': always,
+			'avoid': avoid,
+			'left': left,
+			'right': right,
+		),
+	),
+	'perspective': (
+		'prefix': 'perspective',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+		),
+	),
+	'perspective-origin': (
+		'prefix': 'perspective-origin',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'pointer-events': (
+		'prefix': 'pointer-events',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+			'auto': auto,
+		),
+	),
+	'position': (
+		'prefix': 'position',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'static': static,
+			'absolute': absolute,
+			'fixed': fixed,
+			'relative': relative,
+			'sticky': sticky,
+		),
+	),
+	'quotes': (
+		'prefix': 'quotes',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+		),
+	),
+	'resize': (
+		'prefix': 'resize',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+			'both': both,
+			'horizontal': horizontal,
+			'vertical': vertical,
+		),
+	),
+	'right': (
+		'prefix': 'right',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+		),
+	),
+	'row-gap': (
+		'prefix': 'row-gap',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'normal': normal,
+		),
+	),
+	'scroll-behavior': (
+		'prefix': 'scroll-behavior',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'smooth': smooth,
+		),
+	),
+	'tab-size': (
+		'prefix': 'tab-size',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'table-layout': (
+		'prefix': 'table-layout',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'fixed': fixed,
+		),
+	),
+	'text-shadow': (
+		'prefix': 'text-shadow',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+		),
+	),
+	'top': (
+		'prefix': 'top',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+		),
+	),
+	'transform': (
+		'prefix': 'transform',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+		),
+	),
+	'transform-origin': (
+		'prefix': 'transform-origin',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'transform-style': (
+		'prefix': 'transform-style',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'flat': flat,
+			'preserve-3d': preserve-3d,
+		),
+	),
+	'transition': (
+		'prefix': 'transition',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'transition-delay': (
+		'prefix': 'transition-delay',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'transition-property': (
+		'prefix': 'transition-property',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'none': none,
+			'all': all,
+		),
+	),
+	'transition-timing-function': (
+		'prefix': 'transition-timing-function',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'ease': ease,
+			'linear': linear,
+			'ease-in': ease-in,
+			'ease-out': ease-out,
+			'ease-in-out': ease-in-out,
+			'step-start': step-start,
+			'step-end': step-end,
+		),
+	),
+	'unicode-bidi': (
+		'prefix': 'unicode-bidi',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'normal': normal,
+			'embed': embed,
+			'bidi-override': bidi-override,
+			'isolate': isolate,
+			'isolate-override': isolate-override,
+			'plaintext': plaintext,
+		),
+	),
+	'user-select': (
+		'prefix': 'user-select',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+			'none': none,
+		),
+	),
+	'vertical-align': (
+		'prefix': 'vertical-align',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'baseline': baseline,
+			'sub': sub,
+			'super': super,
+			'top': top,
+			'text-top': text-top,
+			'middle': middle,
+			'bottom': bottom,
+			'text-bottom': text-bottom,
+		),
+	),
+	'visibility': (
+		'prefix': 'visibility',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'visible': visible,
+			'hidden': hidden,
+			'collapse': collapse,
+		),
+	),
+	'widows': (
+		'prefix': 'widows',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+	'width': (
+		'prefix': 'width',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+		),
+	),
+	'z-index': (
+		'prefix': 'z-index',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'auto': auto,
+		),
+	),
 );
 /* default value to put in map
 	'': (
