@@ -3,7 +3,7 @@ $property: accent-color;
 $property-map: map-get($MapPropertys, '#{$property}');
 $prefix: map-get($property-map, 'prefix');
 $values: map-get($property-map, 'values');
-/*#region accent-colors*/
+/*#region #{$property}*/
 @each $key, $val in $values {
 	.u-#{$prefix}__#{$val} {
 		#{$property}: #{$val};
@@ -21,4 +21,4 @@ $values: map-get($property-map, 'values');
 		}
 	}
 }
-/*#endregion accent-colors*/
+/*#endregion #{$property}*/

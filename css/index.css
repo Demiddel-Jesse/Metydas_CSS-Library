@@ -19,7 +19,7 @@
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
-/*#region accent-colors*/
+/*#region accent-color*/
 .u-c-accent__initial {
   accent-color: initial;
 }
@@ -232,4 +232,42 @@
   accent-color: #7f1d1d;
 }
 
-/*#endregion accent-colors*/
+/*#endregion accent-color*/
+/*#region align-content*/
+.u-align-content__stretch {
+  align-content: stretch;
+}
+
+.u-align-content__center {
+  align-content: center;
+}
+
+.u-align-content__flex-start {
+  align-content: flex-start;
+}
+
+.u-align-content__flex-end {
+  align-content: flex-end;
+}
+
+.u-align-content__space-between {
+  align-content: space-between;
+}
+
+.u-align-content__space-around {
+  align-content: space-around;
+}
+
+.u-align-content__space-evenly {
+  align-content: space-evenly;
+}
+
+.u-align-content__initial {
+  align-content: initial;
+}
+
+.u-align-content__inherit {
+  align-content: inherit;
+}
+
+/*#endregion align-content*/
