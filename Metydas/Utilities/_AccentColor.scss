@@ -5,7 +5,7 @@ $prefix: map-get($property-map, 'prefix');
 $values: map-get($property-map, 'values');
 /*#region accent-colors*/
 @each $key, $val in $values {
-	.#{$prefix}-#{$val} {
+	.u-#{$prefix}__#{$val} {
 		#{$property}: #{$val};
 	}
 }
@@ -16,7 +16,7 @@ $values: map-get($property-map, 'values');
 	$values: map-get($val, 'values');
 	// @debug $values;
 	@each $key, $val in $values {
-		.#{$prefix}-#{$prefixc}-#{$key} {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
 			accent-color: #{$val};
 		}
 	}

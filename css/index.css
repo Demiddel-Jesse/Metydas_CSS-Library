@@ -20,215 +20,215 @@
 	#UTILITIES
 \*------------------------------------*/
 /*#region accent-colors*/
-.c-accent-initial {
+.u-c-accent__initial {
   accent-color: initial;
 }
 
-.c-accent-inherit {
+.u-c-accent__inherit {
   accent-color: inherit;
 }
 
-.c-accent-auto {
+.u-c-accent__auto {
   accent-color: auto;
 }
 
-.c-accent-neutral-50 {
+.u-c-accent__neutral--50 {
   accent-color: #fafafa;
 }
 
-.c-accent-neutral-100 {
+.u-c-accent__neutral--100 {
   accent-color: #f5f5f5;
 }
 
-.c-accent-neutral-200 {
+.u-c-accent__neutral--200 {
   accent-color: #e5e5e5;
 }
 
-.c-accent-neutral-300 {
+.u-c-accent__neutral--300 {
   accent-color: #d4d4d4;
 }
 
-.c-accent-neutral-400 {
+.u-c-accent__neutral--400 {
   accent-color: #a3a3a3;
 }
 
-.c-accent-neutral-500 {
+.u-c-accent__neutral--500 {
   accent-color: #737373;
 }
 
-.c-accent-neutral-600 {
+.u-c-accent__neutral--600 {
   accent-color: #525252;
 }
 
-.c-accent-neutral-700 {
+.u-c-accent__neutral--700 {
   accent-color: #404040;
 }
 
-.c-accent-neutral-800 {
+.u-c-accent__neutral--800 {
   accent-color: #262626;
 }
 
-.c-accent-neutral-900 {
+.u-c-accent__neutral--900 {
   accent-color: #171717;
 }
 
-.c-accent-primary-50 {
+.u-c-accent__primary--50 {
   accent-color: #eef2ff;
 }
 
-.c-accent-primary-100 {
+.u-c-accent__primary--100 {
   accent-color: #e0e7ff;
 }
 
-.c-accent-primary-200 {
+.u-c-accent__primary--200 {
   accent-color: #c7d2fe;
 }
 
-.c-accent-primary-300 {
+.u-c-accent__primary--300 {
   accent-color: #a5b4fc;
 }
 
-.c-accent-primary-400 {
+.u-c-accent__primary--400 {
   accent-color: #818cf8;
 }
 
-.c-accent-primary-500 {
+.u-c-accent__primary--500 {
   accent-color: #6366f1;
 }
 
-.c-accent-primary-600 {
+.u-c-accent__primary--600 {
   accent-color: #4f46e5;
 }
 
-.c-accent-primary-700 {
+.u-c-accent__primary--700 {
   accent-color: #4338ca;
 }
 
-.c-accent-primary-800 {
+.u-c-accent__primary--800 {
   accent-color: #3730a3;
 }
 
-.c-accent-primary-900 {
+.u-c-accent__primary--900 {
   accent-color: #312e81;
 }
 
-.c-accent-success-50 {
+.u-c-accent__success--50 {
   accent-color: #f0fdf4;
 }
 
-.c-accent-success-100 {
+.u-c-accent__success--100 {
   accent-color: #dcfce7;
 }
 
-.c-accent-success-200 {
+.u-c-accent__success--200 {
   accent-color: #bbf7d0;
 }
 
-.c-accent-success-300 {
+.u-c-accent__success--300 {
   accent-color: #86efac;
 }
 
-.c-accent-success-400 {
+.u-c-accent__success--400 {
   accent-color: #4ade80;
 }
 
-.c-accent-success-500 {
+.u-c-accent__success--500 {
   accent-color: #22c55e;
 }
 
-.c-accent-success-600 {
+.u-c-accent__success--600 {
   accent-color: #16a34a;
 }
 
-.c-accent-success-700 {
+.u-c-accent__success--700 {
   accent-color: #15803d;
 }
 
-.c-accent-success-800 {
+.u-c-accent__success--800 {
   accent-color: #166534;
 }
 
-.c-accent-success-900 {
+.u-c-accent__success--900 {
   accent-color: #14532d;
 }
 
-.c-accent-warning-50 {
+.u-c-accent__warning--50 {
   accent-color: #fffbeb;
 }
 
-.c-accent-warning-100 {
+.u-c-accent__warning--100 {
   accent-color: #fef3c7;
 }
 
-.c-accent-warning-200 {
+.u-c-accent__warning--200 {
   accent-color: #fde68a;
 }
 
-.c-accent-warning-300 {
+.u-c-accent__warning--300 {
   accent-color: #fcd34d;
 }
 
-.c-accent-warning-400 {
+.u-c-accent__warning--400 {
   accent-color: #fbbf24;
 }
 
-.c-accent-warning-500 {
+.u-c-accent__warning--500 {
   accent-color: #f59e0b;
 }
 
-.c-accent-warning-600 {
+.u-c-accent__warning--600 {
   accent-color: #d97706;
 }
 
-.c-accent-warning-700 {
+.u-c-accent__warning--700 {
   accent-color: #b45309;
 }
 
-.c-accent-warning-800 {
+.u-c-accent__warning--800 {
   accent-color: #92400e;
 }
 
-.c-accent-warning-900 {
+.u-c-accent__warning--900 {
   accent-color: #78350f;
 }
 
-.c-accent-destructive-50 {
+.u-c-accent__destructive--50 {
   accent-color: #fef2f2;
 }
 
-.c-accent-destructive-100 {
+.u-c-accent__destructive--100 {
   accent-color: #fee2e2;
 }
 
-.c-accent-destructive-200 {
+.u-c-accent__destructive--200 {
   accent-color: #fecaca;
 }
 
-.c-accent-destructive-300 {
+.u-c-accent__destructive--300 {
   accent-color: #fca5a5;
 }
 
-.c-accent-destructive-400 {
+.u-c-accent__destructive--400 {
   accent-color: #f87171;
 }
 
-.c-accent-destructive-500 {
+.u-c-accent__destructive--500 {
   accent-color: #ef4444;
 }
 
-.c-accent-destructive-600 {
+.u-c-accent__destructive--600 {
   accent-color: #dc2626;
 }
 
-.c-accent-destructive-700 {
+.u-c-accent__destructive--700 {
   accent-color: #b91c1c;
 }
 
-.c-accent-destructive-800 {
+.u-c-accent__destructive--800 {
   accent-color: #991b1b;
 }
 
-.c-accent-destructive-900 {
+.u-c-accent__destructive--900 {
   accent-color: #7f1d1d;
 }
 
