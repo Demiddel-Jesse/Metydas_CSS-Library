@@ -7,6 +7,7 @@
 	#SETTINGS
 \*------------------------------------*/
 
+// VARIABLE FILE
 /*
 MAPFILE (check mapfile for utility classes in utility section)
     COLORS
@@ -106,245 +107,283 @@ _Components.scss
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
-
+// make utilities with multiple variables neede a long string
 /*
 _Utilities.scss (this list is the order they will show up in the utilities section and map)(sorted alphabetically (some will be grouped or in case for anything dealing with non-decoration functions will be moved to the objects region))
-    accent-color
-    align-content
-    align-items
-    animation-delay
-    animation-direction
-    animation-duration
-    animation-fill-mode
-    animation-iteration-count
-    animation-name
-    animation-play-stat
-    animation-timing-function
+// everythong with '//' in front has all values set in the map
+// everything with '!!' has part or all of its values generated or they have to be created by a user
 
-    backdrop-filter
-    backface-visibility
-    background-attachment
-    background-blend-mode
-    background-clip
-    background-color
-    background-image
-    background-origin
-    background-position
-    background-repeat
-    background-size
-    // all of these border properties also have a top, left, bottom, right selector
-    border-width
-    border-style
-    border-color
-    // all of these border properties do not have a top, left, bottom, right selector unless otherwise specified
-    border-radius
-    border-bottom-left-radius
-    border-bottom-right-radius
-    border-top-left-radius
-    border-top-right-radius
-    border-image-outset
-    border-image-repeat
-    border-image-slice
-    border-image-source
-    border-image-width
-    border-spacing
-    bottom
-    box-decoration-break
-    box-shadow
-    box-sizing
-    break-after
-    break-before
-    break-insisde
+    !!accent-color
+    //align-content
+    //align-items
+    //align-self
+    !!animation
+    !!animation-delay
+    //animation-direction
+    !!animation-duration
+    //animation-fill-mode
+    !!animation-iteration-count
+    !!animation-name
+    //animation-play-state
+    !!animation-timing-function
 
-    caption-side
-    caret-color
-    clear
-    clip
-    color
-    column-count
-    column-fill
-    column-gap
-    column-rule
-    column-rule-color
-    column-rule-style
-    column-rule-width
-    column-span
-    column-width
-    columns
-    content
-    counter-increment
-    counter-reset
-    cursor
+    !!backdrop-filter
+    //backface-visibility
+    !!background
+    //background-attachment
+    //background-blend-mode
+    //background-clip
+    !!background-color
+    !!background-image
+    //background-origin
+    !!background-position
+    //background-repeat
+    !!background-size
+    !!border
+    !!border-bottom
+    !!border-bottom-color
+    !!border-bottom-left-radius
+    !!border-bottom-right-radius
+    //border-bottom-style
+    !!border-bottom-width
+    //border-collapse
+    !!border-image
+    !!border-image-outset
+    //border-image-repeat
+    !!border-image-slice
+    !!border-image-source
+    !!border-image-width
+    !!border-left
+    !!border-left-color
+    //border-left-style
+    !!border-left-width
+    !!border-radius
+    !!border-right
+    !!border-right-color
+    //border-right-style
+    !!border-right-width
+    !!border-spacing
+    //border-style
+    !!border-top
+    !!border-top-color
+    !!border-top-left-radius
+    !!border-top-right-radius
+    //border-top-style
+    !!border-top-width
+    !!border-width
+    !!bottom
+    //box-decoration-break
+    !!box-shadow
+    //box-sizing
+    //break-after
+    //break-before
+    //break-insisde
 
-    direction
-    display
+    //caption-side
+    !!caret-color
+    //clear
+    //clip
+    !!color
+    !!column-count
+    //column-fill
+    !!column-gap
+    !!column-rule
+    !!column-rule-color
+    //column-rule-style
+    !!column-rule-width
+    //column-span
+    !!column-width
+    !!columns
+    !!content
+    !!counter-increment
+    !!counter-reset
+    !!cursor (URL)
 
-    empty-cells
+    //direction
+    //display
+
+    //empty-cells
     
-    filter
-    flex
-    flex-basis
-    flex-direction
-    flex-flow
-    flex-grow
-    flex-shrink
-    flex-wrap
-    float
-    font
-    font-family
-    font-feature-settings
-    font-kerning
-    font-language-override
-    font-size
-    font-size-adjust
-    font-stretch
-    font-style
-    font-synthesis
-    font-variant
-    font-variant-alternates
-    font-variant-caps
-    font-variant-east-asian
-    font-variant-numeric
-    font-variant-position
-    font-weigth
+    !!filter
+    !!flex
+    !!flex-basis
+    //flex-direction
+    !!flex-flow
+    !!flex-grow
+    !!flex-shrink
+    //flex-wrap
+    //float
+    !!font
+    !!font-family
+    !!font-feature-settings
+    //font-kerning
+    !!font-language-override
+    !!font-size
+    !!font-size-adjust
+    //font-stretch
+    //font-style
+    //font-synthesis
+    //font-variant
+    !!font-variant-alternates
+    //font-variant-caps
+    //font-variant-east-asian
+    //font-variant-numeric
+    //font-variant-position
+    //font-weigth
 
-    gap
-    grid
-    grid-area
-    grid-auto-columns
-    grid-auto-flow
-    grid-auto-rows
-    grid-column
-    grid-column-start
-    grid-column-gap
-    grid-column-end
-    grid-gap
-    grid-row
-    grid-row-start
-    grid-row-gap
-    grid-row-end
-    grid-template
-    grid-template-areas
-    grid-template-columns
-    grid-template-rows
+    !!gap
+    !!grid
+    !!grid-area
+    !!grid-auto-columns
+    //grid-auto-flow
+    !!grid-auto-rows
+    !!grid-column
+    !!grid-column-start
+    !!grid-column-gap
+    !!grid-column-end
+    !!grid-gap
+    !!grid-row
+    !!grid-row-start
+    !!grid-row-gap
+    !!grid-row-end
+    !!grid-template
+    !!grid-template-areas
+    !!grid-template-columns
+    !!grid-template-rows
 
-    hanging-punctuation
-    height
-    hyphens
+    //hanging-punctuation
+    !!height
+    //hyphens
 
-    image-rendering
-    isolation
+    //image-rendering
+    //isolation
 
-    justify-content
+    //justify-content
 
-    left
-    letter-spacing
-    line-break
-    line-height
-    list-style
-    list-style-image
-    list-style-position
-    list-style-type
+    !!left
+    !!letter-spacing
+    //line-break
+    !!line-height
+    !!list-style
+    !!list-style-image
+    //list-style-position
+    //list-style-type
 
-    margin
-    margin-bottom
-    margin-left
-    margin-right
-    margin-top
-    mask
-    mask-clip
-    mask-composite
-    mask-image
-    mask-mode
-    mask-origin
-    mask-repeat
-    mask-size
-    mask-type
-    max-height
-    max-width
-    min-height
-    min-width
-    mix-blend-mode
+    !!margin
+    !!margin-bottom
+    !!margin-left
+    !!margin-right
+    !!margin-top
+    //mask
+    //mask-clip
+    !!mask-composite
+    !!mask-image
+    //mask-mode
+    //mask-origin
+    //mask-repeat
+    !!mask-size
+    !!mask-type (also color)
+    !!max-height
+    !!max-width
+    !!min-height
+    !!min-width
+    //mix-blend-mode
 
-    object-fit
-    object-position
-    opacity
-    order
-    orphans
-    outline
-    outline-color
-    outline-offset
-    outline-style
-    outline-width
-    overflow
-    overflow-wrap
-    overflow-x
-    overflow-y
+    //object-fit
+    !!object-position
+    !!opacity
+    !!order
+    !!orphans
+    !!outline
+    !!outline-color
+    !!outline-offset
+    //outline-style
+    !!outline-width
+    //overflow
+    //overflow-wrap
+    //overflow-x
+    //overflow-y
 
-    padding
-    padding-bottom
-    padding-left
-    padding-top
-    padding-right
-    page-break-after
-    page-break-inside
-    page-break-before
-    perspective
-    perspective-origin
-    pointer-events
-    position
+    !!padding
+    !!padding-bottom
+    !!padding-left
+    !!padding-top
+    !!padding-right
+    //page-break-after
+    //page-break-inside
+    //page-break-before
+    !!perspective
+    !!perspective-origin
+    //pointer-events
+    //position
 
-    quotes
+    !!quotes
 
-    resize
-    right
-    row-gap
+    //resize
+    !!right
+    !!row-gap
 
-    scroll-behavion
+    //scroll-behavion
 
-    tab-size
-    table-layout
-    text-align
-    text-align-last
-    text-combine-upright
-    text-decoration
-    text-decoration-color
-    text-decoration-line
-    text-decoration-style
-    text-decoration-thickness
-    text-emphasis
-    text-indent
-    text-justify
-    text-orientation
-    text-overflow
-    text-shadow
-    text-transform
-    text-underline-position
-    top
-    transform
-    transform-origin
-    transform-style
-    transition
-    transition-delay
-    transition-duration
-    transition-property
-    transition-timing-function
+    !!tab-size
+    //table-layout
+    //text-align
+    //text-align-last
+    !!text-combine-upright
+    !!text-decoration
+    !!text-decoration-color
+    //text-decoration-line
+    //text-decoration-style
+    !!text-decoration-thickness
+    //text-emphasis
+    !!text-indent
+    //text-justify
+    //text-orientation
+    //text-overflow
+    !!text-shadow
+    //text-transform
+    //text-underline-position
+    !!top
+    !!transform
+    !!transform-origin
+    //transform-style
+    !!transition
+    !!transition-delay
+    !!transition-duration
+    !!transition-property
+    !!transition-timing-function
 
-    unicode-bidi
-    user-select
+    //unicode-bidi
+    //user-select
 
-    vertical-align
-    visibility
+    !!vertical-align
+    //visibility
 
-    white-space
-    widows
-    width
-    word-break
-    word-spacing
-    word-wrap
-    writing-mode
+    //white-space
+    !!widows
+    !!width
+    //word-break
+    !!word-spacing
+    //word-wrap
+    //writing-mode
 
-    z-index
+    !!z-index
+*/
+
+/*
+// extra things
+content (have the ability to insert text content before or after the element
+)
 */
 
 //#endregion UTILITIES
+
+/* default value to put in map
+	'': (
+		'prefix': '',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+		),
+	),
+*/
