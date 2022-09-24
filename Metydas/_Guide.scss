@@ -110,54 +110,67 @@ _Components.scss
 // make utilities with multiple variables neede a long string
 /*
 _Utilities.scss (this list is the order they will show up in the utilities section and map)(sorted alphabetically (some will be grouped or in case for anything dealing with non-decoration functions will be moved to the objects region))
-    accent-color
+// everythong with '//' in front has all values set in the map
+// everything with '!!' has part or all of its values generated or they have to be created by a user
+
+    !!accent-color
     //align-content
     //align-items
     //align-self
-    ??animation
-    ??animation-delay
-    ??animation-direction
-    ??animation-duration
-    ??animation-fill-mode
-    ??animation-iteration-count
-    ??animation-name
-    ??animation-play-stat
-    ??animation-timing-function
+    !!animation
+    !!animation-delay
+    //animation-direction
+    !!animation-duration
+    //animation-fill-mode
+    !!animation-iteration-count
+    !!animation-name
+    //animation-play-state
+    !!animation-timing-function
 
-    ??backdrop-filter
-    ??backface-visibility
-    ??background
+    !!backdrop-filter
+    //backface-visibility
+    !!background
     //background-attachment
     //background-blend-mode
     //background-clip
-    background-color
-    ??background-image
+    !!background-color
+    !!background-image
     //background-origin
-    ??background-position
+    !!background-position
     //background-repeat
     !!background-size
-
-    // all of these border properties also have a top, left, bottom, right selector
-
-    ??border
-    //border-width
-    //border-style
-    border-color
-
-    // all of these border properties do not have a top, left, bottom, right selector unless otherwise specified
-
-    //border-radius
-    //border-bottom-left-radius
-    //border-bottom-right-radius
-    //border-top-left-radius
-    //border-top-right-radius
-    ??border-image
-    //border-image-outset
+    !!border
+    !!border-bottom
+    !!border-bottom-color
+    !!border-bottom-left-radius
+    !!border-bottom-right-radius
+    //border-bottom-style
+    !!border-bottom-width
+    //border-collapse
+    !!border-image
+    !!border-image-outset
     //border-image-repeat
-    //border-image-slice
-    //border-image-source
-    //border-image-width
-    //border-spacing
+    !!border-image-slice
+    !!border-image-source
+    !!border-image-width
+    !!border-left
+    !!border-left-color
+    //border-left-style
+    !!border-left-width
+    !!border-radius
+    !!border-right
+    !!border-right-color
+    //border-right-style
+    !!border-right-width
+    !!border-spacing
+    //border-style
+    !!border-top
+    !!border-top-color
+    !!border-top-left-radius
+    !!border-top-right-radius
+    //border-top-style
+    !!border-top-width
+    !!border-width
     !!bottom
     //box-decoration-break
     !!box-shadow
@@ -167,20 +180,20 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //break-insisde
 
     //caption-side
-    caret-color
+    !!caret-color
     //clear
     //clip
-    color
-    //column-count
+    !!color
+    !!column-count
     //column-fill
-    //column-gap
-    ??column-rule
-    //column-rule-color
+    !!column-gap
+    !!column-rule
+    !!column-rule-color
     //column-rule-style
-    //column-rule-width
+    !!column-rule-width
     //column-span
-    //column-width
-    //columns
+    !!column-width
+    !!columns
     !!content
     !!counter-increment
     !!counter-reset
@@ -191,55 +204,55 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
 
     //empty-cells
     
-    filter
-    ??flex
+    !!filter
+    !!flex
     !!flex-basis
     //flex-direction
-    ??flex-flow
-    ??flex-grow
-    ??flex-shrink
+    !!flex-flow
+    !!flex-grow
+    !!flex-shrink
     //flex-wrap
     //float
-    ??font
-    ??font-family
-    ??font-feature-settings
+    !!font
+    !!font-family
+    !!font-feature-settings
     //font-kerning
-    ??font-language-override
-    //font-size
-    ??font-size-adjust
+    !!font-language-override
+    !!font-size
+    !!font-size-adjust
     //font-stretch
     //font-style
     //font-synthesis
     //font-variant
-    ??font-variant-alternates
+    !!font-variant-alternates
     //font-variant-caps
     //font-variant-east-asian
     //font-variant-numeric
     //font-variant-position
     //font-weigth
 
-    ??gap
-    ??grid
-    ??grid-area
-    //grid-auto-columns
+    !!gap
+    !!grid
+    !!grid-area
+    !!grid-auto-columns
     //grid-auto-flow
-    //grid-auto-rows
-    ??grid-column
-    //grid-column-start
-    //grid-column-gap
-    //grid-column-end
-    ??grid-gap
-    ??grid-row
-    //grid-row-start
-    //grid-row-gap
-    //grid-row-end
-    ??grid-template
-    ??grid-template-areas
-    ??grid-template-columns
-    ??grid-template-rows
+    !!grid-auto-rows
+    !!grid-column
+    !!grid-column-start
+    !!grid-column-gap
+    !!grid-column-end
+    !!grid-gap
+    !!grid-row
+    !!grid-row-start
+    !!grid-row-gap
+    !!grid-row-end
+    !!grid-template
+    !!grid-template-areas
+    !!grid-template-columns
+    !!grid-template-rows
 
     //hanging-punctuation
-    ??height
+    !!height
     //hyphens
 
     //image-rendering
@@ -247,42 +260,42 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
 
     //justify-content
 
-    ??left
-    //letter-spacing
+    !!left
+    !!letter-spacing
     //line-break
-    //line-height
-    ??list-style
-    ??list-style-image
+    !!line-height
+    !!list-style
+    !!list-style-image
     //list-style-position
     //list-style-type
 
-    ??margin
-    ??margin-bottom
-    ??margin-left
-    ??margin-right
-    ??margin-top
+    !!margin
+    !!margin-bottom
+    !!margin-left
+    !!margin-right
+    !!margin-top
     //mask
     //mask-clip
-    ??mask-composite
-    ??mask-image
+    !!mask-composite
+    !!mask-image
     //mask-mode
     //mask-origin
     //mask-repeat
     !!mask-size
-    ??mask-type (also color)
-    ??max-height
-    ??max-width
-    ??min-height
-    ??min-width
+    !!mask-type (also color)
+    !!max-height
+    !!max-width
+    !!min-height
+    !!min-width
     //mix-blend-mode
 
     //object-fit
     !!object-position
     !!opacity
-    //order
+    !!order
     !!orphans
-    ??outline
-    outline-color
+    !!outline
+    !!outline-color
     !!outline-offset
     //outline-style
     !!outline-width
@@ -291,11 +304,11 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //overflow-x
     //overflow-y
 
-    ??padding
-    ??padding-bottom
-    ??padding-left
-    ??padding-top
-    ??padding-right
+    !!padding
+    !!padding-bottom
+    !!padding-left
+    !!padding-top
+    !!padding-right
     //page-break-after
     //page-break-inside
     //page-break-before
@@ -316,12 +329,12 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //table-layout
     //text-align
     //text-align-last
-    ??text-combine-upright
-    ??text-decoration
-    text-decoration-color
+    !!text-combine-upright
+    !!text-decoration
+    !!text-decoration-color
     //text-decoration-line
     //text-decoration-style
-    //text-decoration-thickness
+    !!text-decoration-thickness
     //text-emphasis
     !!text-indent
     //text-justify
