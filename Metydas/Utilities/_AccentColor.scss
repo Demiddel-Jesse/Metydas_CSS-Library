@@ -1,0 +1,24 @@
+// this file generates all accent color selectors
+$property: accent-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region accent-colors*/
+@each $key, $val in $values {
+	.#{$prefix}-#{$val} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.#{$prefix}-#{$prefixc}-#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion accent-colors*/
