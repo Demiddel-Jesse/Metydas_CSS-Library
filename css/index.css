@@ -21,253 +21,341 @@
 \*------------------------------------*/
 /*#region accent-color*/
 .u-c-accent__initial {
-  accent-color: initial;
+	accent-color: initial;
 }
 
 .u-c-accent__inherit {
-  accent-color: inherit;
+	accent-color: inherit;
 }
 
 .u-c-accent__auto {
-  accent-color: auto;
+	accent-color: auto;
 }
 
 .u-c-accent__neutral--50 {
-  accent-color: #fafafa;
+	accent-color: #fafafa;
 }
 
 .u-c-accent__neutral--100 {
-  accent-color: #f5f5f5;
+	accent-color: #f5f5f5;
 }
 
 .u-c-accent__neutral--200 {
-  accent-color: #e5e5e5;
+	accent-color: #e5e5e5;
 }
 
 .u-c-accent__neutral--300 {
-  accent-color: #d4d4d4;
+	accent-color: #d4d4d4;
 }
 
 .u-c-accent__neutral--400 {
-  accent-color: #a3a3a3;
+	accent-color: #a3a3a3;
 }
 
 .u-c-accent__neutral--500 {
-  accent-color: #737373;
+	accent-color: #737373;
 }
 
 .u-c-accent__neutral--600 {
-  accent-color: #525252;
+	accent-color: #525252;
 }
 
 .u-c-accent__neutral--700 {
-  accent-color: #404040;
+	accent-color: #404040;
 }
 
 .u-c-accent__neutral--800 {
-  accent-color: #262626;
+	accent-color: #262626;
 }
 
 .u-c-accent__neutral--900 {
-  accent-color: #171717;
+	accent-color: #171717;
 }
 
 .u-c-accent__primary--50 {
-  accent-color: #eef2ff;
+	accent-color: #eef2ff;
 }
 
 .u-c-accent__primary--100 {
-  accent-color: #e0e7ff;
+	accent-color: #e0e7ff;
 }
 
 .u-c-accent__primary--200 {
-  accent-color: #c7d2fe;
+	accent-color: #c7d2fe;
 }
 
 .u-c-accent__primary--300 {
-  accent-color: #a5b4fc;
+	accent-color: #a5b4fc;
 }
 
 .u-c-accent__primary--400 {
-  accent-color: #818cf8;
+	accent-color: #818cf8;
 }
 
 .u-c-accent__primary--500 {
-  accent-color: #6366f1;
+	accent-color: #6366f1;
 }
 
 .u-c-accent__primary--600 {
-  accent-color: #4f46e5;
+	accent-color: #4f46e5;
 }
 
 .u-c-accent__primary--700 {
-  accent-color: #4338ca;
+	accent-color: #4338ca;
 }
 
 .u-c-accent__primary--800 {
-  accent-color: #3730a3;
+	accent-color: #3730a3;
 }
 
 .u-c-accent__primary--900 {
-  accent-color: #312e81;
+	accent-color: #312e81;
 }
 
 .u-c-accent__success--50 {
-  accent-color: #f0fdf4;
+	accent-color: #f0fdf4;
 }
 
 .u-c-accent__success--100 {
-  accent-color: #dcfce7;
+	accent-color: #dcfce7;
 }
 
 .u-c-accent__success--200 {
-  accent-color: #bbf7d0;
+	accent-color: #bbf7d0;
 }
 
 .u-c-accent__success--300 {
-  accent-color: #86efac;
+	accent-color: #86efac;
 }
 
 .u-c-accent__success--400 {
-  accent-color: #4ade80;
+	accent-color: #4ade80;
 }
 
 .u-c-accent__success--500 {
-  accent-color: #22c55e;
+	accent-color: #22c55e;
 }
 
 .u-c-accent__success--600 {
-  accent-color: #16a34a;
+	accent-color: #16a34a;
 }
 
 .u-c-accent__success--700 {
-  accent-color: #15803d;
+	accent-color: #15803d;
 }
 
 .u-c-accent__success--800 {
-  accent-color: #166534;
+	accent-color: #166534;
 }
 
 .u-c-accent__success--900 {
-  accent-color: #14532d;
+	accent-color: #14532d;
 }
 
 .u-c-accent__warning--50 {
-  accent-color: #fffbeb;
+	accent-color: #fffbeb;
 }
 
 .u-c-accent__warning--100 {
-  accent-color: #fef3c7;
+	accent-color: #fef3c7;
 }
 
 .u-c-accent__warning--200 {
-  accent-color: #fde68a;
+	accent-color: #fde68a;
 }
 
 .u-c-accent__warning--300 {
-  accent-color: #fcd34d;
+	accent-color: #fcd34d;
 }
 
 .u-c-accent__warning--400 {
-  accent-color: #fbbf24;
+	accent-color: #fbbf24;
 }
 
 .u-c-accent__warning--500 {
-  accent-color: #f59e0b;
+	accent-color: #f59e0b;
 }
 
 .u-c-accent__warning--600 {
-  accent-color: #d97706;
+	accent-color: #d97706;
 }
 
 .u-c-accent__warning--700 {
-  accent-color: #b45309;
+	accent-color: #b45309;
 }
 
 .u-c-accent__warning--800 {
-  accent-color: #92400e;
+	accent-color: #92400e;
 }
 
 .u-c-accent__warning--900 {
-  accent-color: #78350f;
+	accent-color: #78350f;
 }
 
 .u-c-accent__destructive--50 {
-  accent-color: #fef2f2;
+	accent-color: #fef2f2;
 }
 
 .u-c-accent__destructive--100 {
-  accent-color: #fee2e2;
+	accent-color: #fee2e2;
 }
 
 .u-c-accent__destructive--200 {
-  accent-color: #fecaca;
+	accent-color: #fecaca;
 }
 
 .u-c-accent__destructive--300 {
-  accent-color: #fca5a5;
+	accent-color: #fca5a5;
 }
 
 .u-c-accent__destructive--400 {
-  accent-color: #f87171;
+	accent-color: #f87171;
 }
 
 .u-c-accent__destructive--500 {
-  accent-color: #ef4444;
+	accent-color: #ef4444;
 }
 
 .u-c-accent__destructive--600 {
-  accent-color: #dc2626;
+	accent-color: #dc2626;
 }
 
 .u-c-accent__destructive--700 {
-  accent-color: #b91c1c;
+	accent-color: #b91c1c;
 }
 
 .u-c-accent__destructive--800 {
-  accent-color: #991b1b;
+	accent-color: #991b1b;
 }
 
 .u-c-accent__destructive--900 {
-  accent-color: #7f1d1d;
+	accent-color: #7f1d1d;
 }
 
 /*#endregion accent-color*/
 /*#region align-content*/
 .u-align-content__stretch {
-  align-content: stretch;
+	align-content: stretch;
 }
 
 .u-align-content__center {
-  align-content: center;
+	align-content: center;
 }
 
 .u-align-content__flex-start {
-  align-content: flex-start;
+	align-content: flex-start;
 }
 
 .u-align-content__flex-end {
-  align-content: flex-end;
+	align-content: flex-end;
 }
 
 .u-align-content__space-between {
-  align-content: space-between;
+	align-content: space-between;
 }
 
 .u-align-content__space-around {
-  align-content: space-around;
+	align-content: space-around;
 }
 
 .u-align-content__space-evenly {
-  align-content: space-evenly;
+	align-content: space-evenly;
 }
 
 .u-align-content__initial {
-  align-content: initial;
+	align-content: initial;
 }
 
 .u-align-content__inherit {
-  align-content: inherit;
+	align-content: inherit;
 }
 
 /*#endregion align-content*/
+/*#region align-items*/
+.u-align-items__stretch {
+	align-items: stretch;
+}
+
+.u-align-items__center {
+	align-items: center;
+}
+
+.u-align-items__flex-start {
+	align-items: flex-start;
+}
+
+.u-align-items__flex-end {
+	align-items: flex-end;
+}
+
+.u-align-items__baseline {
+	align-items: baseline;
+}
+
+.u-align-items__initial {
+	align-items: initial;
+}
+
+.u-align-items__inherit {
+	align-items: inherit;
+}
+
+/*#endregion align-items*/
+/*#region align-self*/
+.u-align-self__auto {
+	align-self: auto;
+}
+
+.u-align-self__stretch {
+	align-self: stretch;
+}
+
+.u-align-self__center {
+	align-self: center;
+}
+
+.u-align-self__flex-start {
+	align-self: flex-start;
+}
+
+.u-align-self__flex-end {
+	align-self: flex-end;
+}
+
+.u-align-self__baseline {
+	align-self: baseline;
+}
+
+.u-align-self__initial {
+	align-self: initial;
+}
+
+.u-align-self__inherit {
+	align-self: inherit;
+}
+
+/*#endregion align-self*/
+/*#region all*/
+.u-all__initial {
+	all: initial;
+}
+
+.u-all__inherit {
+	all: inherit;
+}
+
+.u-all__unset {
+	all: unset;
+}
+
+/*#endregion all*/
+/*#region animation*/
+.u-animation__initial {
+	animation: initial;
+}
+
+.u-animation__inherit {
+	animation: inherit;
+}
+
+/*#endregion animation*/

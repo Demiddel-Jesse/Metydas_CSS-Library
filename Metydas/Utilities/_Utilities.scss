@@ -1,3 +1,89 @@
-// this file imports all propertys generated in this folder
-@import 'AccentColor';
-@import 'AlignContent';
+// this file generates all propertys or imports them
+$property: accent-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+
+$property: align-content;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: align-items;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: align-self;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: all;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: animation;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
