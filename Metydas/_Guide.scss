@@ -182,7 +182,8 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //caption-side
     !!caret-color
     //clear
-    //clip
+    !!clip
+    !!clip-path
     !!color
     !!column-count
     //column-fill
@@ -280,6 +281,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     !!mask-image
     //mask-mode
     //mask-origin
+    !!mask-position
     //mask-repeat
     !!mask-size
     !!mask-type (also color)
@@ -314,6 +316,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //page-break-before
     !!perspective
     !!perspective-origin
+    !!place-content
     //pointer-events
     //position
 
@@ -324,6 +327,8 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     !!row-gap
 
     //scroll-behavion
+    !!shape-image-threshold
+    !!shape-margin
 
     !!tab-size
     //table-layout
@@ -335,7 +340,10 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //text-decoration-line
     //text-decoration-style
     !!text-decoration-thickness
-    //text-emphasis
+    !!text-emphasis
+    !!text-emphasis-color
+    !!text-emphasis-position
+    !!text-emphasis-style
     !!text-indent
     //text-justify
     //text-orientation
@@ -344,6 +352,7 @@ _Utilities.scss (this list is the order they will show up in the utilities secti
     //text-transform
     //text-underline-position
     !!top
+    //touch action
     !!transform
     !!transform-origin
     //transform-style

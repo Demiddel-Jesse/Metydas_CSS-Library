@@ -5,7 +5,7 @@ $prefix: map-get($property-map, 'prefix');
 $values: map-get($property-map, 'values');
 /*#region #{$property}*/
 @each $key, $val in $values {
-	.u-#{$prefix}__#{$val} {
+	.u-#{$prefix}__#{$key} {
 		#{$property}: #{$val};
 	}
 }
@@ -22,8 +22,7 @@ $values: map-get($property-map, 'values');
 	}
 }
 /*#endregion #{$property}*/
-
-$property: all;
+$property: align-content;
 $property-map: map-get($MapPropertys, '#{$property}');
 $prefix: map-get($property-map, 'prefix');
 $values: map-get($property-map, 'values');
@@ -36,13 +35,2977 @@ $values: map-get($property-map, 'values');
 
 /*#endregion #{$property}*/
 
-$property: animation;
+$property: align-items;
 $property-map: map-get($MapPropertys, '#{$property}');
 $prefix: map-get($property-map, 'prefix');
 $values: map-get($property-map, 'values');
 /*#region #{$property}*/
 @each $key, $val in $values {
 	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: align-self;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$val} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: all;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+
+$property: animation;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-delay;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-direction;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-duration;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-fill-mode;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-iteration-count;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-name;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-play-state;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: animation-timing-function;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: backdrop-filter;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: backface-visibility;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-attachment;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-blend-mode;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-clip;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: background-image;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-origin;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-repeat;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: background-size;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-bottom;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-bottom-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: border-bottom-left-radius;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-bottom-right-radius;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-bottom-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-bottom-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-collapse;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: border-image;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-image-outset;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-image-repeat;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-image-slice;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-image-source;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-image-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-left;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-left-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: border-left-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-left-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-radius;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-right;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-right-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: border-right-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-right-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-spacing;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-top;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-top-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: border-top-left-radius;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-top-right-radius;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-top-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-top-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: border-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: bottom;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: box-decoration-break;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: box-shadow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: box-sizing;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: break-before;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: break-inside;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: break-after;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: caption-side;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: caret-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: clear;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: clip;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: clip-path;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: column-count;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-fill;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-gap;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-rule;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-rule-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: column-rule-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-rule-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-span;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: column-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: columns;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: content;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: counter-increment;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: counter-reset;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: cursor;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: direction;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: display;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: empty-cells;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: filter;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex-basis;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex-direction;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex-flow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex-grow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex-shrink;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: flex-wrap;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: float;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-family;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-feature-settings;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-kerning;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-language-override;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-size;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-size-adjust;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-stretch;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-synthesis;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant-alternates;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant-caps;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant-east-asian;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant-ligatures;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant-numeric;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-variant-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: font-weight;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-auto-columns;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-auto-flow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-auto-rows;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-column-start;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-column-end;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-row-start;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-row-end;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-template;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-template-areas;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-template-columns;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: grid-template-rows;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: hanging-punctuation;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: height;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: hyphens;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: image-rendering;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: isolation;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: justify-content;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: left;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: letter-spacing;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: line-break;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: line-height;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: list-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: list-style-image;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: list-style-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: list-style-type;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: margin;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: margin-bottom;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: margin-left;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: margin-right;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: margin-top;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-clip;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-composite;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-image;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-mode;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-origin;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-repeat;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-size;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mask-type;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: max-height;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: max-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: min-height;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: min-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: mix-blend-mode;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: object-fit;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: object-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: opacity;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: order;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: orphans;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: outline;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: outline-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: outline-offset;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: outline-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: outline-width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: overflow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: overflow-wrap;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: overflow-x;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: overflow-y;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: padding;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: padding-bottom;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: padding-left;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: padding-right;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: padding-top;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: page-break-before;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: page-break-inside;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: page-break-after;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: perspective;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: perspective-origin;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: place-content;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: pointer-events;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: quotes;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: resize;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: right;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: row-gap;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: scroll-behavior;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: shape-image-threshold;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: shape-margin;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: tab-size;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: table-layout;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-align;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-align-last;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-combine-upright;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-decoration;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-decoration-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			accent-color: #{$val};
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: text-decoration-line;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-decoration-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-decoration-thickness;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-emphasis;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			@include vendor-prefix($property, $val);
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: text-emphasis-color;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+@each $key, $val in $MapColors {
+	// @debug $val;
+	$prefixc: map-get($val, 'prefix');
+	// @debug $prefixc;
+	$values: map-get($val, 'values');
+	// @debug $values;
+	@each $key, $val in $values {
+		.u-#{$prefix}__#{$prefixc}--#{$key} {
+			@include vendor-prefix($property, $val);
+		}
+	}
+}
+/*#endregion #{$property}*/
+$property: text-emphasis-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+/*#endregion #{$property}*/
+$property: text-emphasis-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+/*#endregion #{$property}*/
+$property: text-indent;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-justify;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-orientation;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-overflow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-shadow;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-transform;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: text-underline-position;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: top;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: touch-action;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transform;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transform-origin;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transform-style;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transition;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transition-delay;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transition-property;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: transition-timing-function;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: unicode-bidi;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: user-select;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
+
+/*#endregion #{$property}*/
+$property: vertical-align;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: visibility;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: white-space;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: widows;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: width;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: word-break;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: word-spacing;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: word-wrap;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: writing-mode;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
+		#{$property}: #{$val};
+	}
+}
+
+/*#endregion #{$property}*/
+$property: z-index;
+$property-map: map-get($MapPropertys, '#{$property}');
+$prefix: map-get($property-map, 'prefix');
+$values: map-get($property-map, 'values');
+/*#region #{$property}*/
+@each $key, $val in $values {
+	.u-#{$prefix}__#{$key} {
 		#{$property}: #{$val};
 	}
 }

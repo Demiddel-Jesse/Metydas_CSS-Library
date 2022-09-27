@@ -5,6 +5,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -20,6 +21,7 @@ $MapPropertys: (
 			'space-evenly': space-evenly,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'align-items': (
@@ -32,6 +34,7 @@ $MapPropertys: (
 			'baseline': baseline,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'align-self': (
@@ -45,6 +48,7 @@ $MapPropertys: (
 			'baseline': baseline,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'all': (
@@ -60,6 +64,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'animation-delay': (
@@ -67,6 +72,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'animation-direction': (
@@ -74,6 +80,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'reverse': reverse,
 			'alternate': alternate,
@@ -85,6 +92,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'animation-fill-mode': (
@@ -92,6 +100,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'forwards': forwards,
 			'backwards': backwards,
@@ -103,6 +112,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'infinite': infinite,
 		),
 	),
@@ -111,14 +121,16 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
-	'animation-state': (
-		'prefix': 'animation-state',
+	'animation-play-state': (
+		'prefix': 'animation--state',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'paused': paused,
 			'running': running,
 		),
@@ -128,6 +140,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'linear': linear,
 			'ease': ease,
 			'ease-in': ease-in,
@@ -142,6 +155,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -150,6 +164,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'visible': visible,
 			'hidden': hidden,
 		),
@@ -159,6 +174,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'background-attachment': (
@@ -166,6 +182,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'scroll': scroll,
 			'fixed': fixed,
 			'local': local,
@@ -176,6 +193,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'multiply': multiply,
 			'screen': screen,
@@ -193,6 +211,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'border-box': border-box,
 			'pading-box': pading-box,
 			'content-box': content-box,
@@ -203,7 +222,8 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
-			'transparent': transparent,
+			'unset': unset,
+			'transparent': 'transparent',
 		),
 	),
 	'background-image': (
@@ -211,6 +231,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -219,6 +240,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'left-top': 'left top',
 			'left-center': 'left center',
 			'left-bottom': 'left bottom',
@@ -235,6 +257,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'border-box': border-box,
 			'pading-box': pading-box,
 			'content-box': content-box,
@@ -245,6 +268,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'repeat': repeat,
 			'repeat-x': repeat-x,
 			'repeat-y': repeat-y,
@@ -258,6 +282,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'cover': cover,
 			'contain': contain,
@@ -268,6 +293,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-bottom': (
@@ -275,6 +301,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-bottom-color': (
@@ -282,7 +309,8 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
-			'transparent': transparent,
+			'unset': unset,
+			'transparent': 'transparent',
 		),
 	),
 	'border-bottom-left-radius': (
@@ -290,6 +318,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-bottom-right-radius': (
@@ -297,6 +326,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-bottom-style': (
@@ -304,6 +334,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -316,11 +347,20 @@ $MapPropertys: (
 			'outset': outset,
 		),
 	),
+	'border-bottom-width': (
+		'prefix': 'b-bottom-width',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
 	'border-collapse': (
 		'prefix': 'border-collapse',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'seperate': seperate,
 			'collapse': collapse,
 		),
@@ -330,7 +370,8 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
-			'transparent': transparent,
+			'unset': unset,
+			'transparent': 'transparent',
 		),
 	),
 	'border-image': (
@@ -338,6 +379,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-image-outset': (
@@ -345,6 +387,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-image-repeat': (
@@ -352,6 +395,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'stretch': stretch,
 			'repeat': repeat,
 			'round': round,
@@ -363,6 +407,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-image-source': (
@@ -370,6 +415,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -378,6 +424,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -386,6 +433,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-left-color': (
@@ -393,7 +441,8 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
-			'transparent': transparent,
+			'unset': unset,
+			'transparent': 'transparent',
 		),
 	),
 	'border-left-style': (
@@ -401,6 +450,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -413,11 +463,20 @@ $MapPropertys: (
 			'outset': outset,
 		),
 	),
+	'border-left-width': (
+		'prefix': 'b-left-width',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
 	'border-radius': (
 		'prefix': 'b-radius',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-right': (
@@ -425,6 +484,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-right-color': (
@@ -432,7 +492,16 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
-			'transparent': transparent,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'border-right-width': (
+		'prefix': 'b-right-width',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-right-style': (
@@ -440,6 +509,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -457,6 +527,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-style': (
@@ -464,6 +535,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -481,6 +553,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-top-color': (
@@ -488,7 +561,8 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
-			'transparent': transparent,
+			'unset': unset,
+			'transparent': 'transparent',
 		),
 	),
 	'border-top-left-radius': (
@@ -496,6 +570,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-top-right-radius': (
@@ -503,6 +578,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'border-top-style': (
@@ -510,6 +586,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -522,11 +599,20 @@ $MapPropertys: (
 			'outset': outset,
 		),
 	),
+	'border-top-width': (
+		'prefix': 'b-top-width',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
 	'border-width': (
 		'prefix': 'b-width',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'medium': medium,
 			'thin': thin,
 			'thick': thick,
@@ -537,6 +623,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -545,6 +632,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'slice': slice,
 			'clone': clone,
 		),
@@ -554,6 +642,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'inset': inset,
 			'none': none,
 		),
@@ -563,6 +652,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'content-box': content-box,
 			'border-box': border-box,
 		),
@@ -572,6 +662,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'all': all,
 			'always': always,
@@ -593,6 +684,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'avoid': avoid,
 			'avoid-column': avoid-column,
@@ -605,6 +697,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'all': all,
 			'always': always,
@@ -626,6 +719,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'top': top,
 			'bottom': bottom,
 		),
@@ -635,6 +729,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -643,6 +738,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'left': left,
 			'right': right,
@@ -654,11 +750,24 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
-			'left': left,
-			'right': right,
-			'top': top,
-			'bottom': bottom,
+		),
+	),
+	'clip-path': (
+		'prefix': 'clip-path',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'margin-box': margin-box,
+			'border-box': border-box,
+			'padding-box': padding-box,
+			'content-box': content-box,
+			'fill-box': fill-box,
+			'stroke-box': stroke-box,
+			'view-box': view-box,
+			'none': none,
 		),
 	),
 	'color': (
@@ -666,6 +775,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'column-count': (
@@ -673,6 +783,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -681,6 +792,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'balance': balance,
 		),
@@ -690,6 +802,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 		),
 	),
@@ -698,6 +811,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'column-rule-color': (
@@ -705,6 +819,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'column-rule-style': (
@@ -712,6 +827,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -729,6 +845,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'thin': thin,
 			'medium': medium,
 			'thick': thick,
@@ -739,6 +856,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'all': all,
 		),
@@ -748,6 +866,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -756,6 +875,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -764,6 +884,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'none': none,
 			'counter': counter,
@@ -778,6 +899,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -786,6 +908,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -794,6 +917,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'alias': alias,
 			'all-scroll': all-scroll,
 			'auto': auto,
@@ -839,6 +963,7 @@ $MapPropertys: (
 			'left-right': ltr,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'display': (
@@ -846,6 +971,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'inline': inline,
 			'block': block,
 			'contents': contents,
@@ -874,6 +1000,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'show': show,
 			'hide': hide,
 		),
@@ -883,6 +1010,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -893,6 +1021,7 @@ $MapPropertys: (
 			'none': none,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'flex-basis': (
@@ -901,6 +1030,7 @@ $MapPropertys: (
 			'auto': auto,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'flex-direction': (
@@ -908,6 +1038,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'row': row,
 			'row-reverse': row-reverse,
 			'column': column,
@@ -919,6 +1050,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'flex-grow': (
@@ -926,6 +1058,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'flex-shrink': (
@@ -933,6 +1066,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'flex-wrap': (
@@ -940,6 +1074,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'wrap': wrap,
 			'nowrap': nowrap,
 			'wrap-reverse': wrap-reverse,
@@ -950,6 +1085,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'left': left,
 			'right': right,
@@ -960,6 +1096,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'caption': caption,
 			'icon': icon,
 			'menu': menu,
@@ -973,6 +1110,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'font-feature-settings': (
@@ -994,6 +1132,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 		),
 	),
@@ -1011,6 +1150,7 @@ $MapPropertys: (
 			'larger': larger,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 		),
 	),
@@ -1020,6 +1160,7 @@ $MapPropertys: (
 			'initial': initial,
 			'none': none,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'font-stretch': (
@@ -1036,6 +1177,7 @@ $MapPropertys: (
 			'ultra-expanded': ultra-expanded,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'font-style': (
@@ -1046,6 +1188,7 @@ $MapPropertys: (
 			'oblique': oblique,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'font-synthesis': (
@@ -1057,6 +1200,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'font-variant': (
@@ -1066,6 +1210,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'font-variant-alternates': (
@@ -1076,6 +1221,7 @@ $MapPropertys: (
 			'initial': initial,
 			'inherit': inherit,
 			'unset': unset,
+
 			'revert': revert,
 			'revert-layer': revert-layer,
 		),
@@ -1086,6 +1232,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'small-caps': small-caps,
 			'all-small-caps': all-small-caps,
 			'petite-caps': petite-caps,
@@ -1100,6 +1247,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'full-width': full-width,
 			'jis04': jis04,
 			'jis78': jis78,
@@ -1117,6 +1265,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'additional-ligatures': additional-ligatures,
 			'common-ligatures': common-ligatures,
 			'contextual': contextual,
@@ -1136,6 +1285,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'small-caps': small-caps,
 			'all-small-caps': all-small-caps,
 			'petite-caps': petite-caps,
@@ -1150,6 +1300,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'diagonal-fractions': diagonal-fractions,
 			'lining-nums': lining-nums,
 			'oldstyle-nums': oldstyle-nums,
@@ -1158,7 +1309,6 @@ $MapPropertys: (
 			'slashed-zero': slashed-zero,
 			'stacked-fractions': stacked-fractions,
 			'tabular-nums': tabular-nums,
-			'unset': unset,
 		),
 	),
 	'font-weight': (
@@ -1166,6 +1316,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'lighter': lighter,
 			'normal': normal,
 			'bold': bold,
@@ -1187,6 +1338,7 @@ $MapPropertys: (
 			'none': none,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'grid-auto-columns': (
@@ -1245,6 +1397,7 @@ $MapPropertys: (
 			'none': none,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'grid-template-areas': (
@@ -1259,6 +1412,7 @@ $MapPropertys: (
 			'none': none,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'max-content': max-content,
 			'min-content': min-content,
@@ -1279,6 +1433,7 @@ $MapPropertys: (
 			'none': none,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'first': first,
 			'last': last,
 			'allow-end': allow-end,
@@ -1290,6 +1445,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1299,6 +1455,7 @@ $MapPropertys: (
 			'none': none,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'manual': manual,
 			'auto': auto,
 		),
@@ -1308,6 +1465,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'smooth': smooth,
 			'high-quality': high-quality,
@@ -1320,6 +1478,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'isolate': isolate,
 		),
@@ -1335,6 +1494,7 @@ $MapPropertys: (
 			'space-evenly': space-evenly,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'left': (
@@ -1342,6 +1502,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1351,6 +1512,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'line-break': (
@@ -1363,6 +1525,7 @@ $MapPropertys: (
 			'strict': strict,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'line-height': (
@@ -1371,6 +1534,7 @@ $MapPropertys: (
 			'normal': normal,
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'list-style': (
@@ -1378,6 +1542,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'list-style-image': (
@@ -1385,6 +1550,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -1393,6 +1559,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'inside': inside,
 			'outside': outside,
 		),
@@ -1402,6 +1569,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'default': disc,
 			'armenian': armenian,
 			'circle': circle,
@@ -1431,6 +1599,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1439,6 +1608,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1447,6 +1617,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1455,6 +1626,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1463,6 +1635,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1495,6 +1668,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -1503,6 +1677,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'match-source': match-source,
 			'luminance': luminance,
 			'alpha': alpha,
@@ -1513,6 +1688,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'border-box': border-box,
 			'content-box': content-box,
 			'padding-box': padding-box,
@@ -1522,11 +1698,29 @@ $MapPropertys: (
 			'view-box': view-box,
 		),
 	),
+	'mask-position': (
+		'prefix': 'mask-position',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'left-top': 'left top',
+			'left-center': 'left center',
+			'left-bottom': 'left bottom',
+			'right-top': 'right top',
+			'right-center': 'right center',
+			'right-bottom': 'right bottom',
+			'center-top': 'center top',
+			'center-center': 'center center',
+			'center-bottom': 'center bottom',
+		),
+	),
 	'mask-repeat': (
 		'prefix': 'mask-repeat',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'repeat': repeat,
 			'repeat-x': repeat-x,
 			'repeat-y': repeat-y,
@@ -1540,6 +1734,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'contain': contain,
 			'cover': cover,
@@ -1550,16 +1745,21 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'alpha': alpha,
 			'luminance': luminance,
 		),
 	),
-	'max-heigth': (
-		'prefix': 'max-heigth',
+	'max-height': (
+		'prefix': 'max-height',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
+			'fit-content': fit-content,
+			'max-content': max-content,
+			'min-content': min-content,
 		),
 	),
 	'max-width': (
@@ -1567,14 +1767,16 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
-	'min-heigth': (
-		'prefix': 'min-heigth',
+	'min-height': (
+		'prefix': 'min-height',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -1583,6 +1785,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -1591,6 +1794,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'multiply': multiply,
 			'screen': screen,
@@ -1612,6 +1816,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'fill': fill,
 			'contain': contain,
 			'cover': cover,
@@ -1624,6 +1829,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'opacity': (
@@ -1631,6 +1837,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'order': (
@@ -1638,6 +1845,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'orphans': (
@@ -1645,6 +1853,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'outline': (
@@ -1652,6 +1861,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'outline-color': (
@@ -1659,6 +1869,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'invert': invert,
 		),
 	),
@@ -1667,6 +1878,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'outline-style': (
@@ -1674,6 +1886,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'hidden': hidden,
 			'dotted': dotted,
@@ -1691,6 +1904,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'thin': thin,
 			'medium': medium,
 			'thick': thick,
@@ -1701,6 +1915,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'visible': visible,
 			'hidden': hidden,
 			'clip': clip,
@@ -1713,6 +1928,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'anywhere': anywhere,
 			'break-word': break-word,
@@ -1723,6 +1939,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'visible': visible,
 			'hidden': hidden,
 			'scroll': scroll,
@@ -1734,6 +1951,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'visible': visible,
 			'hidden': hidden,
 			'scroll': scroll,
@@ -1745,6 +1963,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'padding-bottom': (
@@ -1752,6 +1971,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'padding-left': (
@@ -1759,6 +1979,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'padding-right': (
@@ -1766,6 +1987,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'padding-top': (
@@ -1773,6 +1995,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'page-break-before': (
@@ -1780,6 +2003,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'always': always,
 			'avoid': avoid,
@@ -1792,6 +2016,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'avoid': avoid,
 		),
@@ -1801,6 +2026,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'always': always,
 			'avoid': avoid,
@@ -1813,6 +2039,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -1821,6 +2048,15 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'place-content': (
+		'prefix': 'place-content',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'pointer-events': (
@@ -1828,6 +2064,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'auto': auto,
 		),
@@ -1837,6 +2074,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'static': static,
 			'absolute': absolute,
 			'fixed': fixed,
@@ -1849,6 +2087,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -1857,6 +2096,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'both': both,
 			'horizontal': horizontal,
@@ -1868,6 +2108,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -1876,6 +2117,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 		),
 	),
@@ -1884,6 +2126,27 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
+			'auto': auto,
+			'smooth': smooth,
+		),
+	),
+	'shape-image-threshold': (
+		'prefix': 'shape-image-threshold',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'auto': auto,
+			'smooth': smooth,
+		),
+	),
+	'shape-margin': (
+		'prefix': 'shape-margin',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'smooth': smooth,
 		),
@@ -1893,6 +2156,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'table-layout': (
@@ -1900,6 +2164,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'fixed': fixed,
 		),
@@ -1909,6 +2174,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'left': left,
 			'right': right,
 			'center': center,
@@ -1920,6 +2186,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'left': left,
 			'right': right,
 			'center': center,
@@ -1934,6 +2201,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'text-decoration': (
@@ -1941,6 +2209,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'text-decoration-color': (
@@ -1948,6 +2217,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'text-decoration-line': (
@@ -1955,6 +2225,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'line-through': line-through,
 			'overline': overline,
@@ -1966,6 +2237,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'solid': solid,
 			'double': double,
 			'dotted': dotted,
@@ -1978,15 +2250,17 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'from-font': from-font,
 		),
 	),
-	'text-decoration-emphasis': (
+	'text-emphasis': (
 		'prefix': 'text-decoration-emphasis',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'filled': filled,
 			'open': open,
@@ -1997,11 +2271,36 @@ $MapPropertys: (
 			'sesame': sesame,
 		),
 	),
+	'text-emphasis-color': (
+		'prefix': 'text-decoration-emphasis-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'text-emphasis-position': (
+		'prefix': 'text-decoration-emphasis-position',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'text-emphasis-style': (
+		'prefix': 'text-decoration-emphasis-style',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
 	'text-indent': (
 		'prefix': 'text-indent',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'text-justify': (
@@ -2009,6 +2308,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'inter-word': inter-word,
 			'inter-character': inter-character,
@@ -2020,6 +2320,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'sideways': sideways,
 			'sideways-right': sideways-right,
 			'upright': upright,
@@ -2030,6 +2331,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'clip': clip,
 			'ellipsis': ellipsis,
 		),
@@ -2039,6 +2341,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -2047,6 +2350,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'capitalize': capitalize,
 			'uppercase': uppercase,
@@ -2058,6 +2362,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'above': above,
 			'below': below,
 			'auto': auto,
@@ -2068,7 +2373,25 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
+		),
+	),
+	'touch-action': (
+		'prefix': 'touch-action',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'auto': auto,
+			'cross-slide-x': cross-slide-x,
+			'cross-slide-y': cross-slide-y,
+			'double-tap-zoom': double-tap-zoom,
+			'manipulation': manipulation,
+			'none': none,
+			'pan-x': pan-x,
+			'pan-y': pan-y,
+			'pinch-zoom': pinch-zoom,
 		),
 	),
 	'transform': (
@@ -2076,6 +2399,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 		),
 	),
@@ -2084,6 +2408,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'transform-style': (
@@ -2091,6 +2416,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'flat': flat,
 			'preserve-3d': preserve-3d,
 		),
@@ -2100,6 +2426,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'transition-delay': (
@@ -2107,6 +2434,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'transition-property': (
@@ -2114,6 +2442,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'none': none,
 			'all': all,
 		),
@@ -2123,6 +2452,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'ease': ease,
 			'linear': linear,
 			'ease-in': ease-in,
@@ -2137,6 +2467,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'embed': embed,
 			'bidi-override': bidi-override,
@@ -2150,6 +2481,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 			'none': none,
 		),
@@ -2159,6 +2491,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'baseline': baseline,
 			'sub': sub,
 			'super': super,
@@ -2174,6 +2507,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'visible': visible,
 			'hidden': hidden,
 			'collapse': collapse,
@@ -2184,6 +2518,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'nowrap': nowrap,
 			'pre': pre,
@@ -2196,6 +2531,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'width': (
@@ -2203,6 +2539,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),
@@ -2211,6 +2548,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'break-all': break-all,
 			'keep-all': keep-all,
@@ -2222,6 +2560,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 		),
 	),
 	'word-wrap': (
@@ -2229,6 +2568,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'normal': normal,
 			'break-word': break-word,
 		),
@@ -2238,6 +2578,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'horizontal-tb': horizontal-tb,
 			'vertical-rl': vertical-rl,
 			'vertical-lr': vertical-lr,
@@ -2250,6 +2591,7 @@ $MapPropertys: (
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
+			'unset': unset,
 			'auto': auto,
 		),
 	),

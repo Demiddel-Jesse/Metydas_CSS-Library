@@ -12,6 +12,8 @@
 	#TOOLS
 \*------------------------------------*/
 
+@import 'Mixins';
+
 //#endregion TOOLS
 
 //#region GENERIC
@@ -33,6 +35,8 @@
 	#OBJECTS
 \*------------------------------------*/
 
+@import 'PropertyGenerators/Objects';
+
 //#endregion OBJECTS
 
 //#region COMPONENTS
@@ -42,11 +46,11 @@
 
 //#endregion COMPONENTS
 
-//#region UTILITIES
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
+/*#region UTILITIES*/
 
-@import 'Utilities/Utilities';
+@import 'PropertyGenerators/Utilities';
 
-//#endregion UTILITIES
+/*#endregion UTILITIES*/
