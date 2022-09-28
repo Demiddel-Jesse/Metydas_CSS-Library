@@ -7,7 +7,7 @@
 	-o-#{$name}: #{$argument};
 	#{$name}: #{$argument};
 }
-
+// placeholder mixin
 @mixin placeholder {
 	&::-webkit-input-placeholder {
 		@content;
@@ -22,3 +22,65 @@
 		@content;
 	}
 }
+// mixins for all media querries
+//#region media-querries
+@mixin ms {
+	@media (min-width: 320px) {
+		@content;
+	}
+} //320px /* mobile small */
+
+@mixin mm {
+	@media (min-width: 375px) {
+		@content;
+	}
+} //375px /* mobile medium */
+
+@mixin ml {
+	@media (min-width: 425px) {
+		@content;
+	}
+} //425px /* mobile large */
+
+@mixin ts {
+	@media (min-width: 577px) {
+		@content;
+	}
+} //577px /* tablet small */
+
+@mixin tl {
+	@media (min-width: 768px) {
+		@content;
+	}
+} //768px /* tablet large */
+
+@mixin ls {
+	@media (min-width: 1024px) {
+		@content;
+	}
+} //1024px /* laptop small */
+
+@mixin hd {
+	@media (min-width: 1280px) {
+		@content;
+	}
+} //1280px /* 720p */
+
+@mixin ll {
+	@media (min-width: 1440px) {
+		@content;
+	}
+} //1440px /* laptop large */
+
+@mixin fhd {
+	@media (min-width: 1920px) {
+		@content;
+	}
+} //1920px /* 1080p */
+
+@mixin uhd {
+	@media (min-width: 2560px) {
+		@content;
+	}
+} //2560px /* 4K */
+//#endregion media-querries

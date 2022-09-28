@@ -192,7 +192,13 @@ $values: map-get($property-map, 'values');
 		@include vendor-prefix($property, $val);
 	}
 }
-
+// get the premade values for design system
+$property-map: map-get($backdropfilterMap, values);
+@each $key, $val in $property-map {
+	.u-#{$prefix}__#{$key} {
+		@include vendor-prefix($property, $val);
+	}
+}
 /*#endregion #{$property}*/
 $property: backface-visibility;
 $property-map: map-get($MapPropertys, '#{$property}');
