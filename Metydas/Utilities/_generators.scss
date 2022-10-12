@@ -1,0 +1,52 @@
+@use '../Settings/variables' as variable;
+
+// this file generates all css propertys that should go into the utility part of ITCSS
+// generate utility classes
+@each $property, $map in variable.$MapUtilities {
+	$prefix: map-get($map, 'prefix');
+	$values: map-get($map, 'values');
+	/* #{$property} */
+	@each $k, $v in $values {
+		@if ($k == 'default') {
+			.#{$prefix} {
+				#{$property}: $v;
+			}
+		} @else {
+			.#{$prefix}-#{$k} {
+				#{$property}: $v;
+			}
+		}
+	}
+}
+@each $property, $map in variable.$MapColorPropertys {
+	$prefix: map-get($map, 'prefix');
+	$values: map-get($map, 'values');
+	/* #{$property} */
+	@each $k, $v in $values {
+		@if ($k == 'default') {
+			.#{$prefix} {
+				#{$property}: $v;
+			}
+		} @else {
+			.#{$prefix}-#{$k} {
+				#{$property}: $v;
+			}
+		}
+	}
+	@each $color, $map in variable.$MapColors {
+		// @debug #{$map};
+		$prefix-color: map-get($map, 'prefix');
+		$values-color: map-get($map, 'values');
+		@each $k, $v in $values-color {
+			@if ($k == 'default') {
+				.#{$prefix} {
+					#{$property}: $v;
+				}
+			} @else {
+				.#{$prefix}-#{$prefix-color}-#{$k} {
+					#{$property}: $v;
+				}
+			}
+		}
+	}
+}

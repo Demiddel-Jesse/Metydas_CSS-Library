@@ -1,14 +1,153 @@
-//this map is made for all the propertys that dont fit in another map
-$MapPropertys: (
-	'accent-color': (
-		'prefix': 'c-accent',
+// This file contains all variables used throughout the maps and selectors
+// use the custom variable file to overwrite the ones in here or use it to create your own for your own map
+// neutral colors
+$color-neutral-50: #fafafa !default;
+$color-neutral-100: #f5f5f5 !default;
+$color-neutral-200: #e5e5e5 !default;
+$color-neutral-300: #d4d4d4 !default;
+$color-neutral-400: #a3a3a3 !default;
+$color-neutral-500: #737373 !default;
+$color-neutral-600: #525252 !default;
+$color-neutral-700: #404040 !default;
+$color-neutral-800: #262626 !default;
+$color-neutral-900: #171717 !default;
+// primary colors
+$color-primary-50: #eef2ff !default;
+$color-primary-100: #e0e7ff !default;
+$color-primary-200: #c7d2fe !default;
+$color-primary-300: #a5b4fc !default;
+$color-primary-400: #818cf8 !default;
+$color-primary-500: #6366f1 !default;
+$color-primary-600: #4f46e5 !default;
+$color-primary-700: #4338ca !default;
+$color-primary-800: #3730a3 !default;
+$color-primary-900: #312e81 !default;
+// success colors
+$color-success-50: #f0fdf4 !default;
+$color-success-100: #dcfce7 !default;
+$color-success-200: #bbf7d0 !default;
+$color-success-300: #86efac !default;
+$color-success-400: #4ade80 !default;
+$color-success-500: #22c55e !default;
+$color-success-600: #16a34a !default;
+$color-success-700: #15803d !default;
+$color-success-800: #166534 !default;
+$color-success-900: #14532d !default;
+// warning colors
+$color-warning-50: #fffbeb !default;
+$color-warning-100: #fef3c7 !default;
+$color-warning-200: #fde68a !default;
+$color-warning-300: #fcd34d !default;
+$color-warning-400: #fbbf24 !default;
+$color-warning-500: #f59e0b !default;
+$color-warning-600: #d97706 !default;
+$color-warning-700: #b45309 !default;
+$color-warning-800: #92400e !default;
+$color-warning-900: #78350f !default;
+// destructive colors
+$color-destructive-50: #fef2f2 !default;
+$color-destructive-100: #fee2e2 !default;
+$color-destructive-200: #fecaca !default;
+$color-destructive-300: #fca5a5 !default;
+$color-destructive-400: #f87171 !default;
+$color-destructive-500: #ef4444 !default;
+$color-destructive-600: #dc2626 !default;
+$color-destructive-700: #b91c1c !default;
+$color-destructive-800: #991b1b !default;
+$color-destructive-900: #7f1d1d !default;
+// shades
+$color-shade-00: #ffffff !default;
+$color-shade-100: #000000 !default;
+
+//------ Maps ------
+// Colormap
+$MapColors: (
+	'Neutral': (
+		'prefix': 'neutral',
 		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'auto': auto,
+			'50': $color-neutral-50,
+			'100': $color-neutral-100,
+			'200': $color-neutral-200,
+			'300': $color-neutral-300,
+			'400': $color-neutral-400,
+			'500': $color-neutral-500,
+			'600': $color-neutral-600,
+			'700': $color-neutral-700,
+			'800': $color-neutral-800,
+			'900': $color-neutral-900,
 		),
 	),
+	'Primary': (
+		'prefix': 'primary',
+		'values': (
+			'50': $color-primary-50,
+			'100': $color-primary-100,
+			'200': $color-primary-200,
+			'300': $color-primary-300,
+			'400': $color-primary-400,
+			'500': $color-primary-500,
+			'600': $color-primary-600,
+			'700': $color-primary-700,
+			'800': $color-primary-800,
+			'900': $color-primary-900,
+		),
+	),
+	'Success': (
+		'prefix': 'success',
+		'values': (
+			'50': $color-success-50,
+			'100': $color-success-100,
+			'200': $color-success-200,
+			'300': $color-success-300,
+			'400': $color-success-400,
+			'500': $color-success-500,
+			'600': $color-success-600,
+			'700': $color-success-700,
+			'800': $color-success-800,
+			'900': $color-success-900,
+		),
+	),
+	'Warning': (
+		'prefix': 'warning',
+		'values': (
+			'50': $color-warning-50,
+			'100': $color-warning-100,
+			'200': $color-warning-200,
+			'300': $color-warning-300,
+			'400': $color-warning-400,
+			'500': $color-warning-500,
+			'600': $color-warning-600,
+			'700': $color-warning-700,
+			'800': $color-warning-800,
+			'900': $color-warning-900,
+		),
+	),
+	'Destructive': (
+		'prefix': 'destructive',
+		'values': (
+			'50': $color-destructive-50,
+			'100': $color-destructive-100,
+			'200': $color-destructive-200,
+			'300': $color-destructive-300,
+			'400': $color-destructive-400,
+			'500': $color-destructive-500,
+			'600': $color-destructive-600,
+			'700': $color-destructive-700,
+			'800': $color-destructive-800,
+			'900': $color-destructive-900,
+		),
+	),
+	'Shade': (
+		'prefix': 'shade',
+		'values': (
+			'00': $color-shade-00,
+			'100': $color-shade-100,
+		),
+	),
+);
+
+// Predifined property map
+$MapUtilities: (
 	'align-content': (
 		'prefix': 'align-content',
 		'values': (
@@ -217,15 +356,6 @@ $MapPropertys: (
 			'content-box': content-box,
 		),
 	),
-	'background-color': (
-		'prefix': 'c-background',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'transparent': 'transparent',
-		),
-	),
 	'background-image': (
 		'prefix': 'background-image',
 		'values': (
@@ -304,15 +434,6 @@ $MapPropertys: (
 			'unset': unset,
 		),
 	),
-	'border-bottom-color': (
-		'prefix': 'c-border-bottom',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'transparent': 'transparent',
-		),
-	),
 	'border-bottom-left-radius': (
 		'prefix': 'b-bottom-left-radius',
 		'values': (
@@ -363,15 +484,6 @@ $MapPropertys: (
 			'unset': unset,
 			'seperate': seperate,
 			'collapse': collapse,
-		),
-	),
-	'border-color': (
-		'prefix': 'c-border',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'transparent': 'transparent',
 		),
 	),
 	'border-image': (
@@ -436,15 +548,6 @@ $MapPropertys: (
 			'unset': unset,
 		),
 	),
-	'border-left-color': (
-		'prefix': 'c-border-left',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'transparent': 'transparent',
-		),
-	),
 	'border-left-style': (
 		'prefix': 'b-style-left',
 		'values': (
@@ -485,15 +588,6 @@ $MapPropertys: (
 			'initial': initial,
 			'inherit': inherit,
 			'unset': unset,
-		),
-	),
-	'border-right-color': (
-		'prefix': 'c-border-right',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'transparent': 'transparent',
 		),
 	),
 	'border-right-width': (
@@ -554,15 +648,6 @@ $MapPropertys: (
 			'initial': initial,
 			'inherit': inherit,
 			'unset': unset,
-		),
-	),
-	'border-top-color': (
-		'prefix': 'c-border-top',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'transparent': 'transparent',
 		),
 	),
 	'border-top-left-radius': (
@@ -724,15 +809,6 @@ $MapPropertys: (
 			'bottom': bottom,
 		),
 	),
-	'caret-color': (
-		'prefix': 'c-caret',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'auto': auto,
-		),
-	),
 	'clear': (
 		'prefix': 'clear',
 		'values': (
@@ -770,14 +846,6 @@ $MapPropertys: (
 			'none': none,
 		),
 	),
-	'color': (
-		'prefix': 'c',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-		),
-	),
 	'column-count': (
 		'prefix': 'column-count',
 		'values': (
@@ -808,14 +876,6 @@ $MapPropertys: (
 	),
 	'column-rule': (
 		'prefix': 'column-rule',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-		),
-	),
-	'column-rule-color': (
-		'prefix': 'c-column-rule',
 		'values': (
 			'initial': initial,
 			'inherit': inherit,
@@ -1864,15 +1924,6 @@ $MapPropertys: (
 			'unset': unset,
 		),
 	),
-	'outline-color': (
-		'prefix': 'c-outline',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-			'invert': invert,
-		),
-	),
 	'outline-offset': (
 		'prefix': 'outline-offset',
 		'values': (
@@ -2212,14 +2263,6 @@ $MapPropertys: (
 			'unset': unset,
 		),
 	),
-	'text-decoration-color': (
-		'prefix': 'c-text-decoration',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
-		),
-	),
 	'text-decoration-line': (
 		'prefix': 'text-decoration-line',
 		'values': (
@@ -2269,14 +2312,6 @@ $MapPropertys: (
 			'double-circle': double-circle,
 			'triangle': triangle,
 			'sesame': sesame,
-		),
-	),
-	'text-emphasis-color': (
-		'prefix': 'text-decoration-emphasis-color',
-		'values': (
-			'initial': initial,
-			'inherit': inherit,
-			'unset': unset,
 		),
 	),
 	'text-emphasis-position': (
@@ -2594,5 +2629,128 @@ $MapPropertys: (
 			'unset': unset,
 			'auto': auto,
 		),
+	),
+);
+
+// Other maps
+$MapColorPropertys: (
+	'accent-color': (
+		'prefix': 'accent-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'auto': auto,
+		),
+	),
+	'background-color': (
+		'prefix': 'background-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'border-bottom-color': (
+		'prefix': 'border-bottom-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'border-color': (
+		'prefix': 'border-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'border-left-color': (
+		'prefix': 'border-left-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'border-right-color': (
+		'prefix': 'border-right-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'border-top-color': (
+		'prefix': 'border-top-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'transparent': 'transparent',
+		),
+	),
+	'caret-color': (
+		'prefix': 'caret-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'auto': auto,
+		),
+	),
+	'color': (
+		'prefix': 'c',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'column-rule-color': (
+		'prefix': 'column-rule-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'text-emphasis-color': (
+		'prefix': 'text-decoration-emphasis-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'text-decoration-color': (
+		'prefix': 'text-decoration-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+		),
+	),
+	'outline-color': (
+		'prefix': 'outline-color',
+		'values': (
+			'initial': initial,
+			'inherit': inherit,
+			'unset': unset,
+			'invert': invert,
+		),
+	),
+);
+
+$backdropfilterMap: (
+	'values': (
+		'blur-5px': blur(5px),
 	),
 );

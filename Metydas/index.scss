@@ -1,56 +1,18 @@
-//#region SETTINGS
-/*------------------------------------*\
-	#SETTINGS
-\*------------------------------------*/
-@import 'Variables';
-@import 'Maps';
+// Settings
 
-//#endregion SETTINGS
+// Tools
 
-//#region TOOLS
-/*------------------------------------*\
-	#TOOLS
-\*------------------------------------*/
+// Generic
+@use 'Generic';
 
-@import 'Mixins';
+// Elements
+@use 'Elements';
 
-//#endregion TOOLS
+// Objects
+@use 'Objects';
 
-//#region GENERIC
-/*------------------------------------*\
-	#GENERIC
-\*------------------------------------*/
+// Components
+@use 'Components';
 
-//#endregion GENERIC
-
-//#region ELEMENTS
-/*------------------------------------*\
-	#ELEMENTS
-\*------------------------------------*/
-
-//#endregion ELEMENTS
-
-//#region OBJECTS
-/*------------------------------------*\
-	#OBJECTS
-\*------------------------------------*/
-
-@import 'PropertyGenerators/Objects';
-
-//#endregion OBJECTS
-
-//#region COMPONENTS
-/*------------------------------------*\
-	#COMPONENTS
-\*------------------------------------*/
-
-//#endregion COMPONENTS
-
-/*------------------------------------*\
-	#UTILITIES
-\*------------------------------------*/
-/*#region UTILITIES*/
-
-@import 'PropertyGenerators/Utilities';
-
-/*#endregion UTILITIES*/
+// Uitilites
+@use 'Utilities';

@@ -20,5 +20,11 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "sass": "^1.54.9"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.17"
   }
 }
