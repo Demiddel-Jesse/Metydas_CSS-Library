@@ -3,16 +3,12 @@
 // Tools
 
 // Generic
-@use 'Generic';
-
+@forward 'Generic';
 // Elements
-@use 'Elements';
-
+@forward 'Elements';
 // Objects
-@use 'Objects';
-
+@forward 'Objects';
 // Components
-@use 'Components';
-
+@forward 'Components';
 // Uitilites
-@use 'Utilities';
+@forward 'Utilities';

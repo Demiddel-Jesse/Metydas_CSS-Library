@@ -59,6 +59,60 @@ $color-destructive-900: #7f1d1d !default;
 $color-shade-00: #ffffff !default;
 $color-shade-100: #000000 !default;
 
+// Typography
+$fontsize: 1rem !default;
+$lineheight: 1rem !default;
+// display
+$display-large-fontsize: $fontsize * 3.25 !default; // 52px
+$display-large-lineheight: $lineheight * 3.5 !default; // 56px
+$display-large-tracking: -0.02rem !default;
+$display-small-fontsize: $fontsize * 2.75 !default; // 44px
+$display-small-lineheight: $lineheight * 3 !default; // 48px
+$display-small-tracking: -0.02rem !default;
+// h1
+$h1-desktop-fontsize: $fontsize * 2.5 !default; // 40px
+$h1-desktop-lineheight: $lineheight * 3 !default; // 48px
+$h1-desktop-tracking: -0.02rem !default;
+$h1-mobile-fontsize: $fontsize * 2.25 !default; // 36px
+$h1-mobile-lineheight: $lineheight * 2.75 !default; // 44px
+$h1-mobile-tracking: -0.02rem !default;
+// h2
+$h2-desktop-fontsize: $fontsize * 2.25 !default; // 36px
+$h2-desktop-lineheight: $lineheight * 2.75 !default; // 44px
+$h2-desktop-tracking: -0.02rem !default;
+$h2-mobile-fontsize: $fontsize * 2 !default; // 32px
+$h2-mobile-lineheight: $lineheight * 2.5 !default; // 40px
+$h2-mobile-tracking: -0.02rem !default;
+// h3
+$h3-desktop-fontsize: $fontsize * 2 !default; // 32px
+$h3-desktop-lineheight: $lineheight * 2.5 !default; // 40px
+$h3-desktop-tracking: -0.02rem !default;
+$h3-mobile-fontsize: $fontsize * 1.75 !default; // 28px
+$h3-mobile-lineheight: $lineheight * 2.25 !default; // 36px
+$h3-mobile-tracking: -0.02rem !default;
+// h4
+$h4-desktop-fontsize: $fontsize * 1.75 !default; // 28px
+$h4-desktop-lineheight: $lineheight * 2.25 !default; // 36px
+$h4-desktop-tracking: -0.02rem !default;
+$h4-mobile-fontsize: $fontsize * 1.5 !default; // 24px
+$h4-mobile-lineheight: $lineheight * 2 !default; // 32px
+$h4-mobile-tracking: 0rem !default;
+// h5
+$h5-desktop-fontsize: $fontsize * 1.5 !default; // 24px
+$h5-desktop-lineheight: $lineheight * 2 !default; // 32px
+$h5-desktop-tracking: -0.02rem !default;
+$h5-mobile-fontsize: $fontsize * 1.25 !default; // 20px
+$h5-mobile-lineheight: $lineheight * 1.75 !default; // 28px
+$h5-mobile-tracking: 0rem !default;
+// h6
+$h6-desktop-fontsize: $fontsize * 1.25 !default; // 20px
+$h6-desktop-lineheight: $lineheight * 1.75 !default; // 28px
+$h6-desktop-tracking: -0.02rem !default;
+$h6-mobile-fontsize: $fontsize * 1.125 !default; // 18px
+$h6-mobile-lineheight: $lineheight * 1.5 !default; // 24px
+$h6-mobile-tracking: 0rem !default;
+// paragraph
+
 //------ Maps ------
 // Colormap
 $MapColors: (

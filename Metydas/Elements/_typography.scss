@@ -1,0 +1,74 @@
+@use '../Tools/mixins' as mixin;
+@use '../Settings/variables' as variable;
+/*-- Typography --*/
+body {
+	font-size: variable.$fontsize;
+	line-height: variable.$lineheight;
+	color: variable.$color-neutral-900;
+}
+
+h1 {
+	font-size: variable.$h1-mobile-fontsize;
+	line-height: variable.$h1-mobile-lineheight;
+	letter-spacing: variable.$h1-mobile-tracking;
+	@include mixin.ls() {
+		font-size: variable.$h1-desktop-fontsize;
+		line-height: variable.$h1-desktop-lineheight;
+		letter-spacing: variable.$h1-desktop-tracking;
+	}
+}
+
+h2 {
+	font-size: variable.$h2-mobile-fontsize;
+	line-height: variable.$h2-mobile-lineheight;
+	letter-spacing: variable.$h2-mobile-tracking;
+	@include mixin.ls() {
+		font-size: variable.$h2-desktop-fontsize;
+		line-height: variable.$h2-desktop-lineheight;
+		letter-spacing: variable.$h2-desktop-tracking;
+	}
+}
+
+h3 {
+	font-size: variable.$h3-mobile-fontsize;
+	line-height: variable.$h3-mobile-lineheight;
+	letter-spacing: variable.$h3-mobile-tracking;
+	@include mixin.ls() {
+		font-size: variable.$h3-desktop-fontsize;
+		line-height: variable.$h3-desktop-lineheight;
+		letter-spacing: variable.$h3-desktop-tracking;
+	}
+}
+
+h4 {
+	font-size: variable.$h4-mobile-fontsize;
+	line-height: variable.$h4-mobile-lineheight;
+	letter-spacing: variable.$h4-mobile-tracking;
+	@include mixin.ls() {
+		font-size: variable.$h4-desktop-fontsize;
+		line-height: variable.$h4-desktop-lineheight;
+		letter-spacing: variable.$h4-desktop-tracking;
+	}
+}
+
+h5 {
+	font-size: variable.$h5-mobile-fontsize;
+	line-height: variable.$h5-mobile-lineheight;
+	letter-spacing: variable.$h5-mobile-tracking;
+	@include mixin.ls() {
+		font-size: variable.$h5-desktop-fontsize;
+		line-height: variable.$h5-desktop-lineheight;
+		letter-spacing: variable.$h5-desktop-tracking;
+	}
+}
+
+h6 {
+	font-size: variable.$h6-mobile-fontsize;
+	line-height: variable.$h6-mobile-lineheight;
+	letter-spacing: variable.$h6-mobile-tracking;
+	@include mixin.ls() {
+		font-size: variable.$h6-desktop-fontsize;
+		line-height: variable.$h6-desktop-lineheight;
+		letter-spacing: variable.$h6-desktop-tracking;
+	}
+}
