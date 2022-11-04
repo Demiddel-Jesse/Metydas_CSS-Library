@@ -1,9 +1,6 @@
-// variables & functions
-@import 'variables/variables';
+// reset styles for compatibility for all browsers
+@forward './Reset';
 
-// base & layout
-@import 'base';
+@forward './elements';
 
-// components
-
-// utilities
+@forward './Utilities';

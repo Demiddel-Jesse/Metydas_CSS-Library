@@ -1,0 +1,66 @@
+@use '../Variables/variable.breakpoints' as bp;
+
+// Makes the @content apply to the given breakpoint and wider.
+@mixin up($name, $breakpoints: bp.$media) {
+	$min: map-get($breakpoints, $name);
+	@if $min {
+		@media (min-width: $min) {
+			@content;
+		}
+	} @else {
+		@content;
+	}
+}
+
+// Makes the @content apply to the given breakpoint and narrower.
+@mixin down($name, $breakpoints: bp.$media) {
+	$max: map-get($breakpoints, $name);
+	@if $max {
+		@media (max-width: $max) {
+			@content;
+		}
+	} @else {
+		@content;
+	}
+}
+
+// Makes the @content apply between the min and max breakpoints
+@mixin between($lower, $upper, $breakpoints: bp.$media) {
+	$min: map-get($breakpoints, $name);
+	$max: map-get($breakpoints, $name);
+
+	@if $min != null and $max != null {
+		@media (min-width: $min) and (max-width: $max) {
+			@content;
+		}
+	} @else if $max == null {
+		@include media-breakpoint-up($lower, $breakpoints) {
+			@content;
+		}
+	} @else if $min == null {
+		@include media-breakpoint-down($upper, $breakpoints) {
+			@content;
+		}
+	}
+}
+
+// Makes the @content apply only to the given breakpoint, not viewports any wider or narrower.
+@mixin only($name, $breakpoints: bp.$media) {
+	$min: map-get($breakpoints, $name);
+	$next: map-get($breakpoints, $name);
+	$max: map-get($breakpoints, $name);
+
+	@if $min != null and $max != null {
+		@media (min-width: $min) and (max-width: $max) {
+			@content;
+		}
+	} @else if $max == null {
+		@include media-breakpoint-up($name, $breakpoints) {
+			@content;
+		}
+	} @else if $min == null {
+		@include media-breakpoint-down($next, $breakpoints) {
+			@content;
+		}
+	}
+}

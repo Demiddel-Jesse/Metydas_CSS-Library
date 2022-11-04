@@ -1,0 +1,135 @@
+@use '../Variables/variable.color' as color;
+@use '../Variables/variable.fontweight' as fw;
+
+.u-display {
+	&__Large {
+		font-size: 3.25rem; // 52px
+		line-height: 3.5rem; // 56px
+		letter-spacing: -0.02rem;
+	}
+
+	&__Small {
+		font-size: 2.75rem; // 44px
+		line-height: 3rem; // 48px
+		letter-spacing: -0.02rem;
+	}
+}
+
+.u-paragraph {
+	&__Large {
+		font-size: 1.125rem; // 18px
+		line-height: 1.75rem; // 28px
+
+		&--medium {
+			font-weight: fw.$medium;
+		}
+
+		&--semiBold {
+			font-weight: fw.$semiBold;
+		}
+
+		&--underline {
+			text-decoration-line: underline;
+		}
+
+		&--strikethrough {
+			text-decoration-line: line-through;
+		}
+
+		&--italic {
+			font-style: italic;
+		}
+	}
+
+	&__Medium {
+		font-size: 1rem; // 16px
+		line-height: 1.5rem; // 24px
+
+		&--medium {
+			font-weight: fw.$medium;
+		}
+
+		&--semiBold {
+			font-weight: fw.$semiBold;
+		}
+
+		&--underline {
+			text-decoration-line: underline;
+		}
+
+		&--strikethrough {
+			text-decoration-line: line-through;
+		}
+
+		&--italic {
+			font-style: italic;
+		}
+	}
+
+	&__Small {
+		font-size: 0.875rem; // 14px
+		line-height: 1.25rem; // 20px
+
+		&--medium {
+			font-weight: fw.$medium;
+		}
+
+		&--semiBold {
+			font-weight: fw.$semiBold;
+		}
+
+		&--underline {
+			text-decoration-line: underline;
+		}
+
+		&--strikethrough {
+			text-decoration-line: line-through;
+		}
+
+		&--italic {
+			font-style: italic;
+		}
+	}
+
+	&__XSmall {
+		font-size: 0.75rem; // 12px
+		line-height: 1.25rem; // 20px
+
+		&--medium {
+			font-weight: fw.$medium;
+		}
+
+		&--semiBold {
+			font-weight: fw.$semiBold;
+		}
+
+		&--underline {
+			text-decoration-line: underline;
+		}
+
+		&--strikethrough {
+			text-decoration-line: line-through;
+		}
+
+		&--italic {
+			font-style: italic;
+		}
+	}
+}
+
+.u-overline {
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-weight: fw.$medium;
+	line-height: 1.25rem; // 20px
+
+	&__Large {
+		@extend .u-overline;
+		font-size: 0.875rem; // 14px
+	}
+
+	&__Small {
+		@extend .u-overline;
+		font-size: 0.75rem; // 12px
+	}
+}

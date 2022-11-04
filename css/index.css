@@ -1,79 +1,259 @@
-/* TYPOGRAPHY */
-/* importing the font(s) */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/* HEADINGS */
-/* Display */
-.f-display, .f-display-small, .f-display-extrabold-small, .f-display-bold-small, .f-display-semibold-small, .f-display-medium-small, .f-display-large, .f-display-extrabold-large, .f-display-bold-large, .f-display-semibold-large, .f-display-medium-large {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
+/* #region RESET-CSS */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.f-display-large, .f-display-extrabold-large, .f-display-bold-large, .f-display-semibold-large, .f-display-medium-large {
-  font-size: 3.25rem;
-  line-height: 108%;
-}
-
-.f-display-small, .f-display-extrabold-small, .f-display-bold-small, .f-display-semibold-small, .f-display-medium-small {
-  font-size: 2.75rem;
-  line-height: 109%;
-}
-
-.f-display-medium-large {
-  font-weight: 500;
-}
-
-.f-display-medium-small {
-  font-weight: 500;
-}
-
-.f-display-semibold-large {
-  font-weight: 600;
-}
-
-.f-display-semibold-small {
-  font-weight: 600;
-}
-
-.f-display-bold-large {
-  font-weight: 700;
-}
-
-.f-display-bold-small {
-  font-weight: 700;
-}
-
-.f-display-extrabold-large {
-  font-weight: 800;
-}
-
-.f-display-extrabold-small {
-  font-weight: 800;
-}
-
-/* reset styles */
-* {
-  color: inherit;
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin: 0;
 }
 
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
 body {
-  font-family: Poppins;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
-ul {
-  padding: 0;
-  list-style-type: none;
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
 }
 
-a {
-  text-decoration: none;
-}
-
-hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
-}
-
-img {
+/* Make images easier to work with */
+img,
+picture {
   max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* #endregion RESET-CSS */
+/* #region ELEMENTS */
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+
+h4 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 768px) {
+  h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+  }
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 768px) {
+  h5 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+  }
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.02rem;
+}
+@media (max-width: 768px) {
+  h6 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+  }
+}
+
+/* #endregion ELEMENTS */
+.u-display__Large {
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.02rem;
+}
+.u-display__Small {
+  font-size: 2.75rem;
+  line-height: 3rem;
+  letter-spacing: -0.02rem;
+}
+
+.u-paragraph__Large {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.u-paragraph__Large--medium {
+  font-weight: 500;
+}
+.u-paragraph__Large--semiBold {
+  font-weight: 600;
+}
+.u-paragraph__Large--underline {
+  text-decoration-line: underline;
+}
+.u-paragraph__Large--strikethrough {
+  text-decoration-line: line-through;
+}
+.u-paragraph__Large--italic {
+  font-style: italic;
+}
+.u-paragraph__Medium {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.u-paragraph__Medium--medium {
+  font-weight: 500;
+}
+.u-paragraph__Medium--semiBold {
+  font-weight: 600;
+}
+.u-paragraph__Medium--underline {
+  text-decoration-line: underline;
+}
+.u-paragraph__Medium--strikethrough {
+  text-decoration-line: line-through;
+}
+.u-paragraph__Medium--italic {
+  font-style: italic;
+}
+.u-paragraph__Small {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.u-paragraph__Small--medium {
+  font-weight: 500;
+}
+.u-paragraph__Small--semiBold {
+  font-weight: 600;
+}
+.u-paragraph__Small--underline {
+  text-decoration-line: underline;
+}
+.u-paragraph__Small--strikethrough {
+  text-decoration-line: line-through;
+}
+.u-paragraph__Small--italic {
+  font-style: italic;
+}
+.u-paragraph__XSmall {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+.u-paragraph__XSmall--medium {
+  font-weight: 500;
+}
+.u-paragraph__XSmall--semiBold {
+  font-weight: 600;
+}
+.u-paragraph__XSmall--underline {
+  text-decoration-line: underline;
+}
+.u-paragraph__XSmall--strikethrough {
+  text-decoration-line: line-through;
+}
+.u-paragraph__XSmall--italic {
+  font-style: italic;
+}
+
+.u-overline, .u-overline__Small, .u-overline__Large {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+.u-overline__Large {
+  font-size: 0.875rem;
+}
+.u-overline__Small {
+  font-size: 0.75rem;
 }
